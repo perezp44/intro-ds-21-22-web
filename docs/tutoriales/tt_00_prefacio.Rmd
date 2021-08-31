@@ -56,31 +56,6 @@ klippy::klippy(position = c("top", "right")) #- remotes::install_github("rlesur/
 ```
 
 
-```{r, include = FALSE}
-options(htmltools.dir.version = FALSE)
-#knitr::opts_chunk$set(fig.retina = 3, warning = FALSE, message = FALSE, echo=FALSE, out.width = "85%")
-library(metathis)
-meta() %>% meta_name("github-repo" = "perezp44/intro-ds-20-21-web") %>% 
-  meta_social(
-    title = "Prefacio al curso Programación y manejo de datos en la era del Big data con R",
-    description = paste(
-      "Se indican las intenciones y la conveniencia del curso.",
-      "Se hace un resumen de contenidos del curso."),
-    url = "https://perezp44.github.io/intro-ds-20-21-web/tutoriales/tt_00_prefacio.html",
-    #image = "https://laderast.github.io/rmed_2020_talk/bmi569.png",
-    #image_alt = paste(
-    #  "Title slide of The MD in RMD", 
-    #  "Learning Data Analytics in R,", 
-    #  "presented at R/Medicine 2020 by Ted Laderas"
-    #),
-    og_type = "website",
-    og_author = "Pedro J. Pérez"
-    #twitter_card_type = "summary_large_image",
-    #twitter_creator = "@tladeras",
-    #twitter_site = "@tladeras"
-  )
-```
-
 -----------------
 
 <br>
