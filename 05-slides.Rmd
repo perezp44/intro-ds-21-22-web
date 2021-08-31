@@ -51,7 +51,7 @@ Todas las transparencias están hechas con R, de hecho, una de las cosas que has
 
 - [Slides-06(C): ggplot2 (distintos tipos de gráficos)](./slides/slides_06_ggplot2_C.html){target="_blank"}.
 
-- [Slides-07: Rmarkdown (primeras ideas)](./slides/slides_7_rmarkdown.html){target="_blank"}.
+- [Slides-07: Rmarkdown (primeras ideas)](./slides/slides_07_rmarkdown.html){target="_blank"}.
 
 
 <br><br>
