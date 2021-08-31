@@ -1,0 +1,57 @@
+---
+output:
+  html_document:
+    #css: !expr here::here("assets", "styles_pjp.css") 
+    css: assets/styles_pjp.css
+    #theme: cerulean  #o flatly(gris)  united (naranja) spacelab(azulito) o yeti o faltly o sandstone
+    #highlight: kate 
+    self_contained: yes
+    number_sections: no
+    #includes:
+       #in_header: google-analytics.html
+    #toc: true
+    #toc_float: true
+    #code_folding: show
+    #self_contained: TRUE
+---
+
+
+
+<br>
+
+
+<div class = "blue">
+**Transparencias/Slides**: en esta sección iré subiendo las transparencias de clase conforme las vaya preparando. Las primeras transparencias están hechas en el formato [`ioslides`](https://bookdown.org/yihui/rmarkdown/ioslides-presentation.html){target="_blank"}. Para el resto, seguramente, usaré otro formato: [`xaringan`](https://bookdown.org/yihui/rmarkdown/xaringan.html){target="_blank"}.
+
+Todas las transparencias están hechas con R, de hecho, una de las cosas que has de aprender durante el curso es a hacer transparencias desde R. Concretamente, habrá un trabajo en equipo (3 personas), donde entre otras cosas, tendréis que hacer unas transparencias para presentar vuestro proyecto. Tendréis que hacer las transparencias con R, usando el formato `ioslides`. 
+</div>
+
+<br><br>
+
+## Slides
+
+-------------------
+
+
+- [Slides-01: Presentación](./slides/ss_01_presentacion/ss_01_presentacion-curso.html){target="_blank"}.
+
+- [Slides-02: Tema 1](./slides/ss_02_tema-1/ss_02_tema-1.html){target="_blank"}.
+
+- [Slides-03: Primeros pasos](./slides/ss_03_inicio-curso/ss_03_primeros-pasos.html){target="_blank"}.
+
+- [Slides-04: R base](./slides/ss_04_R-base-01/ss_04_R-base-01.html){target="_blank"}.
+
+- [Slides-05: Importar y exportar datos](./slides/ss_05_cargar-datos/ss_05_cargar-datos.html){target="_blank"}.
+
+- [Slides-05(bis): Data munging](./slides/ss_05_data-munging/ss_05_data-munging.html){target="_blank"}.
+
+- [Slides-06(A): ggplot2 (primeras ideas)](./slides/ss_06_ggplot2/ss_06_ggplot2_A.html){target="_blank"}.
+
+- [Slides-06(B): ggplot2 (más elementos)](./slides/ss_06_ggplot2/ss_06_ggplot2_B.html){target="_blank"}.
+
+- [Slides-06(C): ggplot2 (distintos tipos de gráficos)](./slides/ss_06_ggplot2/ss_06_ggplot2_C.html){target="_blank"}.
+
+
+<br><br>
+
+<div class="tocify-extend-page" data-unique="tocify-extend-page" style="height: 0;"></div>
