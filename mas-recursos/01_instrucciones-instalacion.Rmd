@@ -34,20 +34,20 @@ Es importante **entender la diferencia entre R y RStudio**: R es un entorno/prog
 Para entender la diferencia entre ellos es útil esta analogía: si fueran un coche, R sería el motor y RStudio sería el volante y los pedales; es decir, R es el motor que hará los cálculos que le ordenemos a través de RStudio. Desde RStudio le enviaremos nuestras ordenes a R.
 
 
-### 1.1 Instrucciones de instalación
+## 1.1 Instrucciones de instalación
 
-Primero tienes que instalar R y después RStudio. Lo normal es dejar todas las opciones de instalación por defecto, vamos, no cambiar nada. Lógicamente es mejor instalarse las ultimas versiones. Ahora mismo la última versión de R es la 4.0.5, y la última versión de RStudio es la 1.4.1106.
+Primero tienes que instalar R y después RStudio. Lo normal es dejar todas las opciones de instalación por defecto, vamos, no cambiar nada. Lógicamente es mejor instalarse las ultimas versiones. Ahora mismo la última versión de R es la 4.1.1, y la última versión de RStudio es la 1.4.1717.
 
 
 <br>
 
-#### Instalación de R
+### **Instalación de R**
 
 Para instalar R sólo has de descargar, como con cualquier programa, el fichero de instalación: 
 
-  - si tu sistema operativo es Windows ve a <https://cran.r-project.org/bin/windows/base/old/4.0.5/R-4.0.5-win.exe>
+  - si tu sistema operativo es Windows ve a:  <https://cran.r-project.org/bin/windows/base/R-4.1.1-win.exe>
    
-  - si tienes un Mac ve a   <https://cran.r-project.org/bin/macosx/R-4.0.5.pkg>
+  - si tienes un Mac ve a:   <https://cran.r-project.org/bin/macosx/base/R-4.1.1.pkg>
 
 Una vez descargado el fichero, **instala R en tu ordenador**.  
   
@@ -56,13 +56,13 @@ Sólo hay que descargar un fichero e instalarlo, pero si prefieres ver un vídeo
 
 <br>
 
-#### Instalación de RStudio
+### **Instalación de RStudio**
 
 Para instalar RStudio sólo has de descargar el fichero de instalación:
 
-  - si tu sistema operativo es Windows ve a <https://download1.rstudio.org/desktop/windows/RStudio-1.4.1106.exe>
+  - si tu sistema operativo es Windows ve a: <https://download1.rstudio.org/desktop/windows/RStudio-1.4.1717.exe>
    
-  - si tienes un Mac ve a   <https://download1.rstudio.org/desktop/macos/RStudio-1.4.1106.dmg>
+  - si tienes un Mac ve a   <https://download1.rstudio.org/desktop/macos/RStudio-1.4.1717.dmg>
 
 Una vez descargado el fichero, **instala RStudio en tu ordenador**.  
   
@@ -87,7 +87,7 @@ Al igual que para usar las aplicaciones de un móvil primero hay que instalarlas
 
   - Obviamente los paquetes los has de instalar después de haber hecho los 2 pasos anteriores; es decir, después de haber instalado primero R y luego RStudio. Son bastantes paquetes, así que tardará un ratito, entre 10 y 15 minutos, según la potencia de tu ordenador y red. Tardará un rato, pero mientras se instala puedes seguir trabajando en tu ordenador.
 
-  - Para instalar los paquetes que usaremos en el curso tienes que pinchar [aquí](https://perezp44.github.io/intro-ds-20-21-web/mas-recursos/paquetes-R-a-instalar.R) o  y se te abrirá una ventana diciendo que se va a abrir un fichero con `RStudio`. Acepta. Se abrirá RStudio y el fichero, entonces, pincha con el botón derecho del ratón y se abrirá un  menú contextual. Selecciona la opción **"Select All"**.
+  - Para instalar los paquetes que usaremos en el curso tienes que pinchar [aquí](https://perezp44.github.io/intro-ds-21-22-web/mas-recursos/paquetes-R-a-instalar.R) o  y se te abrirá una ventana diciendo que se va a abrir un fichero con `RStudio`. Acepta. Se abrirá RStudio y el fichero, entonces, pincha con el botón derecho del ratón y se abrirá un  menú contextual. Selecciona la opción **"Select All"**.
 
 
 ```{r echo = FALSE, comment = "",  out.width = '75%', fig.align = 'center', fig.cap = "Pincha en Select All"}
@@ -115,7 +115,7 @@ De todas formas, para **comprobar que todo está correcto**, haz lo siguiente:
 
 - primero cierra RStudio,  
 
-- luego pincha [aquí](https://perezp44.github.io/intro-ds-20-21-web/mas-recursos/comprobar-instalacion.Rmd){target="_blank"}. Se abrirá una ventana diciendo que se va a abrir RStudio. Acepta. Se abrirá RStudio y un archivo. Tienes que pinchar en el icono que hay arriba: es azul i pone Knitr, abajo puede ver una foto del icono. No se verá exactamente igual, pero pincha en ese icono.
+- luego pincha [aquí](https://perezp44.github.io/intro-ds-21-22-web/mas-recursos/03_comprobar-instalacion.Rmd){target="_blank"}. Se abrirá una ventana diciendo que se va a abrir RStudio. Acepta. Se abrirá RStudio y un archivo. Tienes que pinchar en el icono que hay arriba: es azul i pone Knitr, abajo puede ver una foto del icono. No se verá exactamente igual, pero pincha en ese icono.
 
 
 ```{r, echo = FALSE}
