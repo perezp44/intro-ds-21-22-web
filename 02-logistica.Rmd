@@ -21,7 +21,7 @@ output:
 <br>
 
 
-<div class = "blue">
+<div class = "gris-gainboro">
 **Logística**: esta sección sirve para poner en un mismo lugar todos los recursos y materiales que usaremos durante el curso. Al final de esta sección pondré bibliografía y/o materiales adicionales.
 </div>
 
@@ -34,7 +34,7 @@ output:
 ------------------
 
 
-- [**`Aula Virtual de la asignatura`**](https://aulavirtual.uv.es/course/view.php?id=9254){target="_blank"}: como Aula Virtual es el sitio oficial de la asignatura colgaré allí los anuncios de tipo "oficial". También colgaré en Aula Virtual los detalles sobre la evaluación. Además, si hiciera falta, allí podemos organizar reuniones virtuales a través de BBC (Black Board Collaborate).
+- [**`Aula Virtual de la asignatura`**](https://aulavirtual.uv.es/course/view.php?id=29740){target="_blank"}: como Aula Virtual es el sitio oficial de la asignatura colgaré allí los anuncios de tipo "oficial". También colgaré en Aula Virtual los detalles sobre la evaluación. Además, si hiciera falta, allí podemos organizar reuniones virtuales a través de BBC (Black Board Collaborate).
 
 - [**`Etherpad`**](https://etherpad.wikimedia.org/p/curso_intro_DS_UV){target="_blank"}: durante el curso escribiremos código R. Esta etherpad nos permitirá compartir el código.
 
@@ -69,12 +69,12 @@ Estos 3 últimos es fácil que los usemos menos, pero per si de cas, aquí está
 ------------------
 
 
-- [**`Tutoriales`**](https://perezp44.github.io/intro-ds-20-21-web/04-tutoriales.html): digamos que son los apuntes/libro oficial del curso. Tenéis que ir leyéndolos poco a poco. Algunas de las tareas a hacer en casa consistirán en leer secciones de estos tutoriales. Los puedes encontrar en la sección `Tutoriales` de esta misma web.
+- [**`Tutoriales`**](04-tutoriales.html) : digamos que son los apuntes/libro oficial del curso. Tenéis que ir leyéndolos poco a poco. Algunas de las tareas a hacer en casa consistirán en leer secciones de estos tutoriales. Los puedes encontrar en la sección `Tutoriales` de esta misma web.
 
-- [**`Transparencias`**](https://perezp44.github.io/intro-ds-20-21-web/05-slides.html): las transparencias (o slides) que usaré para dar clase. Las puedes encontrar en la sección `Slides` de esta misma web.
+- [**`Transparencias`**](05-slides.html) : las transparencias (o slides) que usaré para dar clase. Las puedes encontrar en la sección `Slides` de esta misma web.
 
 
-- [**`Ejemplos/Ejercicios`**](https://perezp44.github.io/intro-ds-20-21-web/06-ejemplos.html):  iré colgando conforme avancen las clases.
+- [**`Guiones de clase/ Ejemplos / Ejercicios`**](06-mas-cosas.html):  iré colgando conforme avancen las clases.
 
 
 

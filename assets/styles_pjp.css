@@ -26,10 +26,9 @@ h1, h2 {
   font-weight: bold;
 }
 
-.blue { background-color:#DCDCDC; border-radius: 4px; padding: 13px;}
+.blue { background-color:#e6f0ff; border-radius: 4px; padding: 13px;}
 
-.gris-gainboro { background-color:#e6f0ff; border-radius: 4px; padding: 13px;}
-
+.gris-gainboro { background-color:#DCDCDC; border-radius: 4px; padding: 13px;}
 
 .darkkhaki { background-color:#bdb76b; border-radius: 4px; padding: 13px;}
 
@@ -50,7 +49,6 @@ h1, h2 {
 .lavender-2 { background-color:#D8BFD8; border-radius: 4px; padding: 13px;}
 
 .light-steel { background-color:#B0C4DE; border-radius: 4px; padding: 13px;}
-
 
 .antique { background-color:#FAEBD7; border-radius: 4px; padding: 13px;}
 

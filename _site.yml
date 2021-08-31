@@ -22,7 +22,7 @@ navbar:
       href: 05-slides.html
     - text: "MáS"
       icon: fa-download
-      href: 08-mas-cosas.html
+      href: 06-mas-cosas.html
     - text: "Trabajos"
       icon: fa-user-graduate
       href: 07-trabajos.html
@@ -33,7 +33,7 @@ output:
     highlight: pygments
     includes:
       after_body: assets/footer.html
-      in_header: ["assets/google-analytics.html", "assets/favicon.html"]
+      in_header: ["assets/google-analytics.html", "assets/favicon-mola-mazo.html"]
 ---
 
     #css: styles.css

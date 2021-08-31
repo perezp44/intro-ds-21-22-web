@@ -33,23 +33,26 @@ Todas las transparencias están hechas con R, de hecho, una de las cosas que has
 -------------------
 
 
-- [Slides-01: Presentación](./slides/ss_01_presentacion/ss_01_presentacion-curso.html){target="_blank"}.
+- [Slides-00: Presentación](./slides/slides_00_presentacion-curso.html){target="_blank"}.
 
-- [Slides-02: Tema 1](./slides/ss_02_tema-1/ss_02_tema-1.html){target="_blank"}.
+- [Slides-01: Tema 1](./slides/slides_01_intro_v3.html){target="_blank"}.
 
-- [Slides-03: Primeros pasos](./slides/ss_03_inicio-curso/ss_03_primeros-pasos.html){target="_blank"}.
+- [Slides-02: Primeros pasos](./slides/slides_02_primeros-pasos.html){target="_blank"}.
 
-- [Slides-04: R base](./slides/ss_04_R-base-01/ss_04_R-base-01.html){target="_blank"}.
+- [Slides-03: R base](./slides/slides_03_R-base-01.html){target="_blank"}.
 
-- [Slides-05: Importar y exportar datos](./slides/ss_05_cargar-datos/ss_05_cargar-datos.html){target="_blank"}.
+- [Slides-04: Importar y exportar datos](./slides/slides_04_cargar-datos.html){target="_blank"}.
 
-- [Slides-05(bis): Data munging](./slides/ss_05_data-munging/ss_05_data-munging.html){target="_blank"}.
+- [Slides-05: Data munging](./slides/slides_05_data-munging.html){target="_blank"}.
 
-- [Slides-06(A): ggplot2 (primeras ideas)](./slides/ss_06_ggplot2/ss_06_ggplot2_A.html){target="_blank"}.
+- [Slides-06(A): ggplot2 (primeras ideas)](./slides/slides_06_ggplot2_A.html){target="_blank"}.
 
-- [Slides-06(B): ggplot2 (más elementos)](./slides/ss_06_ggplot2/ss_06_ggplot2_B.html){target="_blank"}.
+- [Slides-06(B): ggplot2 (más elementos)](./slides/slides_06_ggplot2_B.html){target="_blank"}.
 
-- [Slides-06(C): ggplot2 (distintos tipos de gráficos)](./slides/ss_06_ggplot2/ss_06_ggplot2_C.html){target="_blank"}.
+- [Slides-06(C): ggplot2 (distintos tipos de gráficos)](./slides/slides_06_ggplot2_C.html){target="_blank"}.
+
+
+- [Slides-07: Rmarkdown (primeras ideas)](./slides/slides_7_rmarkdown.html){target="_blank"}.
 
 
 <br><br>
