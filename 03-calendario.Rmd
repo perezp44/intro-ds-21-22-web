@@ -35,7 +35,7 @@ output:
 
 ##### **`Homework`** (para hacer antes de ir a clase) 
 
-- Lee la sección [`Guía del curso`](https://perezp44.github.io/intro-ds-20-21-web/01-guia-del-curso.html) de la página web del curso.
+- Lee la sección  [`Guía del curso`](01-guia-del-curso.html) de la página web del curso.
   
 - Créate una cuenta en [Github](https://github.com/){target="_blank"}. La usaremos para acceder a varios servicios web.
 

@@ -35,7 +35,9 @@ output:
 
 Como posiblemente sepáis, y si no ya os lo contaré yo el primer día de clase, el curso es una introducción a la ciencia de datos con R; de hecho el título del curso debería ser: `Introducción a la Ciencia de datos`; o de forma más precisa y extensa: "Una introducción a la Ciencia de datos con R para economistas". 
 
-#### Relación de temas
+<br>
+
+##### Relación de temas
 
 El curso tiene **"sólo" 5 temas**. En el primer tema se presentan los objetivos del curso, junto con los términos y procesos que justifican la asignatura (Big data, Ciencia de Datos, Machine Learning, investigación reproducible...). En el tema 2 se presentan los rudimentos del lenguaje de programación R. Estos conocimientos básicos se irán reforzando durante el curso trabajando en diferentes tópicos y aplicaciones. En el tema 3, se desarrollarán diversos casos de análisis de datos tabulares, el formato más típico en Ciencias Sociales, con los que se irán asentando los conocimientos de programación iniciados en el tema 2. El tema 4 es una introducción a los conceptos básicos del Machine Learning (training set, validation set, etc..), para luego presentar las técnicas o algoritmos de ML básicos y más relacionados con lo que los estudiantes ya han visto en Econometría, ahora presentados desde una óptica diferente, más orientada a la predicción. El quinto y último tema presenta, una vez habéis alcanzado cierta soltura en el manejo de R, una panorámica de tópicos como, por ejemplo, datos espaciales y textuales.
 
@@ -63,7 +65,7 @@ Nos veremos **un día a la semana**, los viernes. En esta misma web, en la secci
 
 <br>
 
-#### Sesiones
+##### Sesiones
 
 El curso tiene **14 sesiones de 4 horas** (en realidad 3 horas cada sesión). La verdad es que no me gusta que las sesiones sean de 4 horas pero, dadas las actuales circunstancias, es posible que agrupar las clases en un solo día sea, quizás, la mejor opción.
 
@@ -71,7 +73,7 @@ Las razones por las que, en circunstancias normales, prefiero dos clases a la se
 
 <br>
 
-#### Dinámica de las clases
+##### Dinámica de las clases
 
 
 Ya dentro de clase, la dinámica será la siguiente: el profesor, yo, explicaré una idea/tópico, mostraré una aplicación de ella en el ordenador, para después plantearos un reto o cuestión para que trabajéis la idea/concepto y acabéis de entenderlo. Intentaré^[Digo intentaré porque también depende de vosotros.] repetir este esquema de explicación/aplicación de forma rápida; es decir que veamos cuantos más tópicos mejor. 
