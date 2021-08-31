@@ -23,7 +23,7 @@ La **página web** del curso está aquí: <https://perezp44.github.io/intro-ds-2
 
 <br>
 
-Además, el curso tiene un repo asociado <https://github.com/perezp44/intro-ds-21-22-web-companion> con una [wiki](https://github.com/perezp44/intro-ds-21-22-web-companion/wiki) y un [foro](https://github.com/perezp44/intro-ds-21-22-web-companion/discussions) asociados.
+Además, el curso tiene un repo asociado con una [wiki](https://github.com/perezp44/intro-ds-21-22-web-companion/wiki) y un [foro](https://github.com/perezp44/intro-ds-21-22-web-companion/discussions).
 
 <br>
 
