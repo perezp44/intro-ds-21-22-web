@@ -25,41 +25,40 @@ output:
 **Logística**: esta sección sirve para poner en un mismo lugar todos los recursos y materiales que usaremos durante el curso. Al final de esta sección pondré bibliografía y/o materiales adicionales.
 </div>
 
-
-
-<br><br>
+<br>
 
 ## Recursos
 
 ------------------
 
-
-- [**`Aula Virtual de la asignatura`**](https://aulavirtual.uv.es/course/view.php?id=29740){target="_blank"}: como Aula Virtual es el sitio oficial de la asignatura colgaré allí los anuncios de tipo "oficial". También colgaré en Aula Virtual los detalles sobre la evaluación. Además, si hiciera falta, allí podemos organizar reuniones virtuales a través de BBC (Black Board Collaborate).
+##### Los que usaremos más
 
 - [**`Etherpad`**](https://etherpad.wikimedia.org/p/curso_intro_DS_UV){target="_blank"}: durante el curso escribiremos código R. Esta etherpad nos permitirá compartir el código.
 
-- [**`Uploader`**](https://driveuploader.com/upload/x1Qx7fev79/){target="_blank"}: Un servicio que utilizaré para recoger vuestros trabajos. Ya os diré como funciona. Lo abriré cuando tenga que recoger trabajos.
+- [**`Foros del curso`**](https://github.com/perezp44/intro-ds-21-22-web-companion/discussions){target="_blank"}: un espacio par resolver preguntas sobre el curso y las tareas para casa. 
 
 - [**`Wiki del curso`**](https://github.com/perezp44/intro-ds-21-22-web-companion/wiki){target="_blank"}: una wiki asociada al curso para hacer unos apuntes colaborativos y registrar las erratas que vayáis encontrando en los materiales del curso. 
 
-- [**`Foros del curso`**](https://github.com/perezp44/intro-ds-21-22-web-companion/discussions){target="_blank"}: un espacio par resolver preguntas sobre el curso y las tareas para casa. 
 
-- [**`Jitsi link to make e-meetings`**](https://meet.jit.si/intro-to-DS_UV_2020-21){target="_blank"}: Una room de Jitsi para hacer reuniones online. Seguramente la utilizaremos para las tutorías online.
+##### Para recoger las tareas
+
+- [**`Uploader`**](https://driveuploader.com/upload/x1Qx7fev79/){target="_blank"}: Un servicio que utilizaré para recoger vuestros trabajos. Ya os diré como funciona. Lo abriré cuando tenga que recoger trabajos.
+
+- [**`Cuestionario de Google`**](https://forms.gle/kvrZbuw6XtRDhki98){target="_blank"}: Generalmente recogeré los trabajos con el `uploader` o por mail, pero esa función también podría hacerla este cuestionario.
+
+##### Sitio oficial de la asignatura en Aula Virtual
 
 
-<br>
+- [**`Aula Virtual de la asignatura`**](https://aulavirtual.uv.es/course/view.php?id=29740){target="_blank"}: como Aula Virtual es el sitio oficial de la asignatura colgaré allí los anuncios de tipo "oficial". También colgaré en Aula Virtual los detalles sobre la evaluación. Además, si hiciera falta, allí podemos organizar reuniones virtuales a través de BBC (Black Board Collaborate).
 
-Estos 2 últimos es fácil que los usemos menos, pero per si de cas, aquí están:
 
+##### Fácil que los usemos menos, pero per si de cas, aquí están:
 
 - [**`RStudio Cloud Project`**](https://rstudio.cloud/project/1543128){target="_blank"}: El año pasado este recurso nos resulto muy útil, pero ahora la versión gratuita tiene límite de tiempo, aunque de momento yo sí lo estoy usando para dar clase en el aula.
 
 
-- [**`Cuestionario de Google`**](https://forms.gle/kvrZbuw6XtRDhki98){target="_blank"}: Generalmente recogeré los trabajos con el `uploader` o por mail, pero esa función también podría hacerla este cuestionario.
+- [**`Jitsi link to make e-meetings`**](https://meet.jit.si/intro-to-DS_UV_2020-21){target="_blank"}: Una room de Jitsi para hacer reuniones online. Seguramente la utilizaremos para las tutorías online.
 
-
-
-- [**`Página del curso en Piazza`**](https://piazza.com/uv.es/fall2020/36494/home){target="_blank"}: es una plataforma que se  usa en muchos cursos para resolver cuestiones y "colaborar" en la resolución de tareas. Ya veremos si acabamos usándolo.
 
 
 
@@ -76,7 +75,7 @@ Estos 2 últimos es fácil que los usemos menos, pero per si de cas, aquí está
 - [**`Transparencias`**](05-slides.html) : las transparencias (o slides) que usaré para dar clase. Las puedes encontrar en la sección `Slides` de esta misma web.
 
 
-- [**`Guiones de clase/ Ejemplos / Ejercicios`**](06-mas-cosas.html):  iré colgando conforme avancen las clases.
+- [**`Guiones de clase/Ejemplos/Ejercicios`**](06-mas-cosas.html):  iré colgando conforme avancen las clases.
 
 
 

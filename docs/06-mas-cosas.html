@@ -490,31 +490,38 @@ div.tocify {
   addClassKlippyTo("pre.r, pre.markdown");
   addKlippy('right', 'top', 'auto', '1', 'Copy code', 'Copied!');
 </script>
-<p><br><br></p>
-<div id="recursos" class="section level2">
-<h2>Recursos</h2>
-<hr />
-<ul>
-<li><p><a href="./mas-recursos/01_instrucciones-instalacion.html" target="_blank">Guía de Instalación de R y RStudio</a></p></li>
-<li><p><a href="./mas-recursos/02_paquetes-a-instalar.R">Listado de paquetes a instalar</a></p></li>
-<li><p><a href="./mas-recursos/04_como-entregar-las-tareas-uploader.html" target="_blank">Intrucciones de entrega de las tareas de la evaluación continua</a></p></li>
-<li><p><a href="./mas-recursos/05_bajar-google-drive.html" target="_blank">Descargar ficheros de Google Drive</a>. Este fichero es solo para mi. Para usarlo en el aula.</p></li>
-</ul>
 <p><br></p>
-</div>
-<div id="ejemplos" class="section level2">
-<h2>Ejemplos</h2>
+<div id="guiones-de-clase" class="section level3">
+<h3><strong>Guiones de clase</strong></h3>
 <hr />
-<p>Los ejemplos y casos que hagamos durante el curso muchas veces provendrán de los propios tutoriales.</p>
-<p>Durante el curso he de evaluaros, así que muchos de los ejemplos nuevos os los facilitaré cuando hagamos las pruebas, ya sean estas en casa o en el aula.</p>
-<p>Además, en clase vamos a usar cada sesión un Rproject con ejemplos: son los guiones de clase</p>
-<p>Para descargaros el Rproject con los ejemplos de cada sesión tienes que ejecutar en RStudio las siguientes instrucciones:</p>
+<p>En cada sesión/clase vamos a usar un Rproject con ejemplos y alguna cosa más: son los <strong>guiones de clase</strong></p>
+<p>Para descargaros el Rproject con el guión de cada sesión tienes que ejecutar en RStudio las siguientes instrucciones:</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>file_to_download <span class="ot">&lt;-</span> <span class="st">&quot;clase_01.zip&quot;</span> </span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>url <span class="ot">&lt;-</span> <span class="fu">paste0</span>(<span class="st">&quot;https://github.com/perezp44/intro-ds-20-21-web/raw/master/guiones-de-clase/&quot;</span>, file_to_download)</span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">download.file</span>(url, <span class="at">destfile =</span> file_to_download)</span>
 <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="fu">unzip</span>(<span class="at">zipfile =</span> file_to_download)</span>
 <span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="fu">file.remove</span>(file_to_download)</span></code></pre></div>
 <p>No hace falta que lo hagas ahora, mejor si te esperas al primer día de clase, os lo explico un poco más y lo hacemos todos juntos.</p>
+<p>La mayoría de ejemplos/casos que trabajaremos durante el curso estarán alojados en los guiones de clase, otros provendrán de los propios tutoriales o slides.</p>
+<p><br></p>
+</div>
+<div id="tareas-para-relizar-en-casaclase" class="section level3">
+<h3><strong>Tareas para relizar en casa/clase</strong></h3>
+<hr />
+<p>Durante el curso he de evaluaros, lo haré con tareas/ejemplos nuevos, que os facilitaré cuando hagamos las pruebas, ya sean estas en casa o en el aula.</p>
+<ul>
+<li><a href="./mas-recursos/04_como-entregar-las-tareas-uploader.html" target="_blank">Intrucciones de entrega de las tareas de la evaluación continua</a></li>
+</ul>
+<p><br></p>
+</div>
+<div id="otros-recursos" class="section level3">
+<h3><strong>Otros recursos</strong></h3>
+<hr />
+<ul>
+<li><p><a href="./mas-recursos/01_instrucciones-instalacion.html" target="_blank">Guía de Instalación de R y RStudio</a></p></li>
+<li><p><a href="./mas-recursos/02_paquetes-a-instalar.R">Listado de paquetes a instalar</a></p></li>
+<li><p><a href="./mas-recursos/05_bajar-google-drive.html" target="_blank">Descargar ficheros de Google Drive</a>. Este fichero es solo para mi. Para usarlo en el aula.</p></li>
+</ul>
 <p><br><br></p>
 <div class="tocify-extend-page" data-unique="tocify-extend-page" style="height: 0;">
 
