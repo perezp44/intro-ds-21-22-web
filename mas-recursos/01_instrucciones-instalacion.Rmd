@@ -4,7 +4,7 @@ author: "Pedro J. Pérez"
 date: "`r Sys.Date()`"  
 output:
   html_document:
-    theme: sandstone
+    theme: flatly
     highlight: textmate 
     self_contained: yes
     number_sections: no

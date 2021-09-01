@@ -28,26 +28,27 @@ output:
 --------------------------
 
 
-- [`Prefacio`](./tutoriales/tt_00_prefacio.html){target="_blank"}
+- [Prefacio](./tutoriales/tt_00_prefacio.html){target="_blank"}
 
-- [`Tutorial 01: Introducción`](./tutoriales/tt_01_introduccion.html){target="_blank"} 
+- [Tutorial 01: Introducción](./tutoriales/tt_01_introduccion.html){target="_blank"} 
 
-- [`Tutorial 02: Workflow`](./tutoriales/tt_02_primeros-pasos-con-R.html){target="_blank"} 
-- [`Tutorial 03: R base`](./tutoriales/tt_03_R-base.html){target="_blank"} 
+- [Tutorial 02: Workflow](./tutoriales/tt_02_primeros-pasos-con-R.html){target="_blank"} 
 
-- [`Tutorial 04: Cargar datos`](./tutoriales/tt_04_cargar_datos.html){target="_blank"} 
+- [Tutorial 03: R base](./tutoriales/tt_03_R-base.html){target="_blank"} 
 
-- [`Tutorial 05: Data munging`](./tutoriales/tt_05_data-munging.html){target="_blank"} 
+- [Tutorial 04: Cargar datos](./tutoriales/tt_04_cargar_datos.html){target="_blank"} 
 
-- [`Tutorial 06: ggplot2`](./tutoriales/tt_06_ggplot2.html){target="_blank"} 
+- [Tutorial 05: Data munging](./tutoriales/tt_05_data-munging.html){target="_blank"} 
 
-- [`Tutorial 07: Rmarkdown`](./tutoriales/tt_07_Rmarkdown.html){target="_blank"} 
+- [Tutorial 06: ggplot2](./tutoriales/tt_06_ggplot2.html){target="_blank"} 
+
+- [Tutorial 07: Rmarkdown](./tutoriales/tt_07_Rmarkdown.html){target="_blank"} 
 
 - [`Tutorial 08: Tablas con Rmarkdown`](./tutoriales/tt_08_tablas-Rmarkdown.html){target="_blank"} 
 
-- [`Tutorial 09: Introducción a GIS con R (WIP)`](./tutoriales/tt_09_GIS-con-R.html){target="_blank"} 
+- [Tutorial 09: Introducción a GIS con R (WIP)](./tutoriales/tt_09_GIS-con-R.html){target="_blank"} 
 
-- [`Tutorial 10: Un poco de EDA y modelos (WIP)`](./tutoriales/tt_10_EDA-con-R.html){target="_blank"} 
+- [Tutorial 10: Un poco de EDA y modelos (WIP)](./tutoriales/tt_10_EDA-con-R.html){target="_blank"} 
 
 
 
