@@ -33,7 +33,7 @@ output:
     highlight: monochrome  #- pygments  textmate
     includes:
       after_body: assets/footer.html
-      in_header: ["assets/google-analytics.html", "assets/favicon-mola-mazo.html"]
+      in_header: ["google-analytics.html", "favicon-mola-mazo.html"]
 ---
 
     #css: styles.css
