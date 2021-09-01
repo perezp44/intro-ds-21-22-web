@@ -33,25 +33,25 @@ Todas las transparencias están hechas con R, de hecho, una de las cosas que has
 -------------------
 
 
-- [Slides-00: Presentación](./slides/slides_00_presentacion-curso.html){target="_blank"}.
+- [Slides-00: Presentación](./slides/slides_00_presentacion-curso.html){target="_blank"}
 
-- [Slides-01: Tema 1](./slides/slides_01_intro_v3.html){target="_blank"}.
+- [Slides-01: Tema 1](./slides/slides_01_intro_v3.html){target="_blank"}
 
-- [Slides-02: Primeros pasos](./slides/slides_02_primeros-pasos.html){target="_blank"}.
+- [Slides-02: Primeros pasos](./slides/slides_02_primeros-pasos.html){target="_blank"}
 
-- [Slides-03: R base](./slides/slides_03_R-base-01.html){target="_blank"}.
+- [Slides-03: R base](./slides/slides_03_R-base-01.html){target="_blank"}
 
-- [Slides-04: Importar y exportar datos](./slides/slides_04_cargar-datos.html){target="_blank"}.
+- [Slides-04: Importar y exportar datos](./slides/slides_04_cargar-datos.html){target="_blank"}
 
-- [Slides-05: Data munging](./slides/slides_05_data-munging.html){target="_blank"}.
+- [Slides-05: Data munging](./slides/slides_05_data-munging.html){target="_blank"}
 
-- [Slides-06(A): ggplot2 (primeras ideas)](./slides/slides_06_ggplot2_A.html){target="_blank"}.
+- [Slides-06(A): ggplot2 (primeras ideas)](./slides/slides_06_ggplot2_A.html){target="_blank"}
 
-- [Slides-06(B): ggplot2 (más elementos)](./slides/slides_06_ggplot2_B.html){target="_blank"}.
+- [Slides-06(B): ggplot2 (más elementos)](./slides/slides_06_ggplot2_B.html){target="_blank"}
 
-- [Slides-06(C): ggplot2 (distintos tipos de gráficos)](./slides/slides_06_ggplot2_C.html){target="_blank"}.
+- [Slides-06(C): ggplot2 (distintos tipos de gráficos)](./slides/slides_06_ggplot2_C.html){target="_blank"}
 
-- [Slides-07: Rmarkdown (primeras ideas)](./slides/slides_07_rmarkdown.html){target="_blank"}.
+- [Slides-07: Rmarkdown (primeras ideas)](./slides/slides_07_rmarkdown.html){target="_blank"}
 
 
 <br><br>

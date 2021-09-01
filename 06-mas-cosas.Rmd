@@ -59,7 +59,7 @@ La mayoría de ejemplos/casos que trabajaremos durante el curso estarán alojado
 -------------------
 
 
-Durante el curso he de evaluaros, lo haré con tareas/ejemplos nuevos, que os facilitaré cuando hagamos las pruebas, ya sean estas en casa o en el aula.
+Durante el curso he de evaluaros. Lo haré con tareas/ejemplos nuevos, que os facilitaré cuando hagamos las pruebas, ya sean estas en casa o en el aula.
 
 - [Intrucciones de entrega de las tareas de la evaluación continua](./mas-recursos/04_como-entregar-las-tareas-uploader.html){target="_blank"}
 

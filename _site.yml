@@ -29,8 +29,8 @@ navbar:
 output_dir: "docs"
 output:
   html_document:
-    theme: flatly
-    highlight: pygments
+    theme: united        #- verde: flatly
+    highlight: textmate  #- pygments
     includes:
       after_body: assets/footer.html
       in_header: ["assets/google-analytics.html", "assets/favicon-mola-mazo.html"]

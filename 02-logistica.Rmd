@@ -21,7 +21,7 @@ output:
 <br>
 
 
-<div class = "gris-gainboro">
+<div class = "blue">
 **Logística**: esta sección sirve para poner en un mismo lugar todos los recursos y materiales que usaremos durante el curso. Al final de esta sección pondré bibliografía y/o materiales adicionales.
 </div>
 

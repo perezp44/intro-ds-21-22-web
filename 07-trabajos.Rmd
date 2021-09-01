@@ -54,8 +54,8 @@ klippy::klippy(position = c("top", "right")) #- remotes::install_github("rlesur/
 ------------------------
 
 
-<div class = "gris-gainboro">
-[Aquí](https://perezp44.github.io/intro-ds-20-21-web/07-trabajos.html) puedes ver los trabajos de los estudiantes del curso pasado.
+<div class = "blue">
+<center>[Aquí](https://perezp44.github.io/intro-ds-20-21-web/07-trabajos.html) puedes ver los trabajos de los estudiantes del curso pasado.</center>
 </div>
 
 

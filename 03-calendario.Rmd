@@ -17,7 +17,7 @@ output:
 
 <br>
 
-<div class = "gris-gainboro">
+<div class = "blue">
 **Calendario de clases** y HOMEWORK: iré actualizándo este apartado conforme pasen las semanas. Aquí os dejaré las **tareas previas a cada clase**. Tenemos 14 sesiones. Intenta faltar lo menos posible y asiste, sí o sí, a las 4 primeras sesiones. Intentaré ajustar y acertar lo más posible con la programación de las clases pero ... , como sabéis, en una clase siempre puede haber incidentes/sorpresas. 
 </div>
 
@@ -37,7 +37,7 @@ output:
 
 - Lee la sección  [`Guía del curso`](01-guia-del-curso.html) de la página web del curso.
   
-- Créate una cuenta en [Github](https://github.com/){target="_blank"}. La usaremos para acceder a varios servicios web.
+- Créate una cuenta en [Github](https://github.com/){target="_blank"}. Mejor si usas tu cuenta de correo de Gmail. La usaremos para acceder a varios servicios web.
 
 - Prepara tu ordenador; es decir, instálate R, RStudio y los paquetes. [Aquí](./mas-recursos/01_instrucciones-instalacion.html){target="_blank"} tienes una guía para la instalación. Si tienes algún problema con la instalación contacta conmigo por email.
 
