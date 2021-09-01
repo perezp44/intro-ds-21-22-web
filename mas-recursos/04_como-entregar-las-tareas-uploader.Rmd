@@ -4,8 +4,9 @@ author: "Pedro J. Pérez"
 date: "`r Sys.Date()`"  
 output:
   html_document: 
-    theme: sandstone
-    highlight: kate
+    css: assets/styles_pjp.css
+    theme: flatly
+    highlight: textmate
     toc: yes
     toc_float: yes
 ---

@@ -18,8 +18,14 @@ output:
 <br>
 
 <div class = "blue">
-**Calendario de clases** y HOMEWORK: iré actualizándo este apartado conforme pasen las semanas. Aquí os dejaré las **tareas previas a cada clase**. Tenemos 14 sesiones. Intenta faltar lo menos posible y asiste, sí o sí, a las 4 primeras sesiones. Intentaré ajustar y acertar lo más posible con la programación de las clases pero ... , como sabéis, en una clase siempre puede haber incidentes/sorpresas. 
+**Calendario de clases y HOMEWORK**: 
+Aquí os dejaré las **tareas previas a cada clase**. 
+Tenéis que tener muy claro que no podéis venir a clase de espectadores, habrá que trabajar en clase y sobre todo haber trabajado en casa; es decir, cada semana, antes de venir a clase **hay que hacer las tareas previas**. 
+Tenemos 14 sesiones de clase. Intenta faltar lo menos posible y asiste, sí o sí, a las 5 primeras sesiones.  
+Iré actualizándo este apartado conforme pasen las semanas. Intentaré ajustar y acertar lo más posible con la programación de las clases pero ... , como sabéis, en una clase siempre puede haber incidentes/sorpresas. 
 </div>
+
+<br>
 
 <div class = "blue">
 <center>RECUERDA que, antes de venir a clase, **TENÉIS  que hacer las tareas previas asignadas**.</center>

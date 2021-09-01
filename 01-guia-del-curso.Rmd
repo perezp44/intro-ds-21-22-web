@@ -165,7 +165,7 @@ Espero que al final del curso seáis capaces de entender código R, replicar los
 
 Sí. Creo que te resultará fácil aprobar; de hecho, el año pasado aprobaron todos los que siguieron el curso: todos eran capaces de importar y arreglar datos, mostrar resultados en tablas y gráficos y presentar informes en Rmarkdown. También es verdad que hubo 4-5 estudiantes que, por diversas razones, decidieron abandonar el curso en la tercera semana y se matricularon en otra optativa. De verdad que creo que os gustará y aprenderéis pero ... has de trabajar, sobre todo al principio. 
 
-Si, por lo que sea, crees que la asignatura no es para ti^[Insisto, creo que por muy bajo que sea tu nivel de partida, con un interés razonable aprovecharás sin problemas el curso], lo mejor sería darse de baja: este año creo que en secretaría serán mas estrictos con la fechas de cambio de matricula.
+Si, por lo que sea, crees que la asignatura no es para ti^[Insisto, creo que por muy bajo que sea tu nivel de partida, con un interés razonable aprovecharás sin problemas el curso. Eso sí, hay que trabajar cada semana, sobre todo las primeras semanas.], lo mejor sería darse de baja: este año creo que en secretaría serán mas estrictos con la fechas de cambio de matricula.
 
 <br>
 
