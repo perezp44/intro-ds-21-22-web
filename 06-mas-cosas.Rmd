@@ -40,7 +40,7 @@ Para descargaros el Rproject con el guión de cada sesión tienes que ejecutar e
 
 ```{r, eval = FALSE}
 file_to_download <- "clase_01.zip" 
-url <- paste0("https://github.com/perezp44/intro-ds-20-21-web/raw/master/guiones-de-clase/", file_to_download)
+url <- paste0("https://github.com/perezp44/intro-ds-21-22-web/raw/master/guiones-de-clase/", file_to_download)
 download.file(url, destfile = file_to_download)
 unzip(zipfile = file_to_download)
 file.remove(file_to_download)
