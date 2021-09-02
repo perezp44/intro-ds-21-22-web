@@ -54,12 +54,12 @@ La mayoría de ejemplos/casos que trabajaremos durante el curso estarán alojado
 
 <br>
 
-### **Tareas para relizar en casa/clase**
+### **Entrega de las tareas**
 
 -------------------
 
 
-Durante el curso he de evaluaros. Lo haré con tareas/ejemplos nuevos, que os facilitaré cuando hagamos las pruebas, ya sean estas en casa o en el aula.
+Durante el curso, sobre todo las primeras semanas, os mandaré tareas, algunas para resolver en el aula y otras para resolver en casa. Estas tareas, generalmente, formarán parte de la evaluación continua. Abajo tenéis las instrucciones para la entrega de las tareas:
 
 - [Intrucciones de entrega de las tareas de la evaluación continua](./mas-recursos/04_como-entregar-las-tareas-uploader.html){target="_blank"}
 
