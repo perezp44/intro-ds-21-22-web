@@ -17,6 +17,7 @@ install.packages("gganimate")
 install.packages("SPARQL")
 install.packages("devtools")
 install.packages("meme")
+devtools::install_github("sctyner/memer")
 install.packages(c("plotly", "spotifyr", "tidytext", "tm", "wordcloud2"))
 install.packages(c("leaflet", "tmap"))
 install.packages("pxR")
@@ -57,6 +58,10 @@ install.packages(c("corrr", "DataExplorer", "estimatr", "explore", "factoextra",
 install.packages(c("ggspatial", "rnaturalearth", "rnaturalearthdata"))
 install.packages(c("leafem", "leafpm", "mapedit", "mapview"))
 install.packages(c("ggmap", "osmdata"))
+install.packages("shiny")
+install.packages("thematic")
+install.packages("tidygeocoder")
+
 #---  les hago instalarse hasta AQUI -----------------------------------------------------------------------
 remotes::install_github("datalorax/equatiomatic")
 install.packages("psycho")
