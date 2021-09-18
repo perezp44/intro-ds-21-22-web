@@ -95,14 +95,27 @@ Too much for the first class? Igual sí. Al final veremos lo que podamos.
 
 <br>
 
-
 ##### **`Homework`** (para hacer antes de ir a clase) 
+
+- Leer el e-mail que os he mandado a vuestro correo de la UV y hacer (si quieres) las 2 tareas extra-oficiales que allí os cuento. Además, en el mail hay una tercera tarea, está tercera tarea sí es oficial, hay que hacerla.
+
+- Leer el [tutorial nº 2](https://perezp44.github.io/intro-ds-20-21-web/tutoriales/tt_02_primeros-pasos-con-R.html), es sólo leer. En el tutorial aparece una pequeña explicación de las ventajas de usar Rprojects y hace hincapié en el concepto de **rutas relativas**. Trata de entenderlo, lógicamente, pero si tienes dudas/problemas no pasa nada, lo trabajaremos en profundidad cuando empecemos el tutorial nº 04, supongo que en la tercera sesión/viernes del curso.
+
+- Configurar RStudio. Para ello tienes que seguir las instrucciones que figuran en el tutorial nº 2, concretamente [aquí](https://perezp44.github.io/intro-ds-21-22-web/tutoriales/tt_02_primeros-pasos-con-R.html#Configurando_RStudio). Es importante que tengamos todos la misma configuración, ya explicaré la razón en clase. Esto es importante hacerlo bien!!
 
 
 <br>
 
 
 ##### ¿Qué haremos en la segunda clase?
+
+- Estaremos un buen rato con el ejemplo "ej_01_ejemplo-inicial.R"; es un análisis muy simple, pero ejemplifica bien lo que haremos durante el curso.
+  
+- Utilizaremos el fichero "ej_01_ejemplo-inicial.Rmd" para crear una primera capa para entender los ficheros .Rmd
+  
+- Ver todo los que podamos de R-base, para ello utilizaremos las [Slides-04: R base](./slides/ss_04_R-base-01/ss_04_R-base-01.html){target="_blank"}. Es muy importante entender algunos conceptos como asignación, tipos de datos, estructuras de datos, funciones ...
+
+- Jugar con algún ejemplo
 
 
 

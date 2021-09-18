@@ -35,7 +35,7 @@ output:
 
 - [**Etherpad**](https://etherpad.wikimedia.org/p/curso_intro_DS_UV){target="_blank"}: durante el curso escribiremos código R. Esta etherpad nos permitirá compartir el código.
 
-- [**Foros del curso**](https://github.com/perezp44/intro-ds-21-22-web-companion/discussions){target="_blank"}: un espacio par resolver preguntas sobre el curso y las tareas para casa. 
+- [**Foros del curso**](https://github.com/perezp44/intro-ds-21-22-web-companion/discussions){target="_blank"}: un espacio para resolver preguntas sobre el curso y las tareas para casa. 
 
 - [**Wiki del curso**](https://github.com/perezp44/intro-ds-21-22-web-companion/wiki){target="_blank"}: una wiki asociada al curso para hacer unos apuntes colaborativos y registrar las erratas que vayáis encontrando en los materiales del curso. 
 
