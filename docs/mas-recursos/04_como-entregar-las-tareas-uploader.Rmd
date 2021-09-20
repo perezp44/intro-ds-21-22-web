@@ -27,7 +27,6 @@ Como sabéis, a lo largo del curso os mandaré algunas tareas/ejercicios que for
 
 Los ejercicios/tareas que hagamos **en clase o en casa** y que formen parte de la **evaluación continua** se entregarán a través de un `uploader`. Simplemente habrá que depositar el archivo final en la siguiente dirección: <https://driveuploader.com/upload/x1Qx7fev79/>.
 
-Si el `uploader`estuviese cerrado tendrás que pinchar en el recuadro para solicitar su apertura.
 
 <br>
 
@@ -35,7 +34,7 @@ Si el `uploader`estuviese cerrado tendrás que pinchar en el recuadro para solic
 
 Generalmente resolveréis las tareas utilizando un Rproject, pero una vez hayáis resuelto el ejercicio, **tendréis que comprimir ese Rproject en un fichero .zip. Este fichero .zip será el que tengáis que subir al `uploader`**.
 
-POr lo tanto, hay que entregar un **único archivo**, un fichero comprimido o **fichero .zip**. 
+Por lo tanto, hay que entregar un **único archivo**, un fichero comprimido o **fichero .zip**. 
 
 
 <br>
@@ -68,16 +67,20 @@ Fíjate además que **el número de tarea tiene 2 dígitos**: la tercera tarea e
 Imagina que María tiene que entregar la quinta entrega. En ese caso, su Rproject debe llamarse `entrega_05_Nunez_Maria_HB454545`; por lo tanto cuando comprima el Rproject en un fichero .zip, este fichero, que es el que tienes que subir al upolader, se llamará `entrega_05_Nunez_Maria_HB454545.zip`.
 
 
-<br>
 
 -------------------------
 
 
 Los nombres de los ficheros no son sólo una manía, **SON IMPORTANTES!!!** y es la única manera de identificar correctamente vuestras entregas. Por favor, hazlo según las indicaciones.
 
-<br>
-
 -------------------------
 
-Evidentemente, las tareas hay que entregarlas antes de su **fecha límite de entrega**. Las fechas límites se anunciarán para cada tarea, pero generalmente serán **los jueves a las 23:59**.
+<br>
+
+### 5. Fecha límite de entrega
+
+Evidentemente, las tareas hay que entregarlas antes de su **fecha límite de entrega**. Las fechas límites de entrega serán, si no se anuncia expresamente otra cosa, los **jueves a las 23:59**.
+
+Ya sabes que la entrega se hace depositando tu fichero .zip en el [uploader](https://driveuploader.com/upload/x1Qx7fev79/), pero el uploader no estará siempre abierto: se abrirá el miércoles sobre las 14:00 horas. Si ya fuese miercoles (pasadas las 14:00) y resulta que vas a depositar tu trabajo pero el `uploader`estuviese cerrado tendrás que pinchar en el recuadro que hay en el uploader para solicitar su apertura.
+
 
