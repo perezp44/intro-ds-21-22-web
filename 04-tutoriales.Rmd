@@ -44,7 +44,7 @@ output:
 
 - [Tutorial 07: Rmarkdown](./tutoriales/tt_07_Rmarkdown.html){target="_blank"} 
 
-- [`Tutorial 08: Tablas con Rmarkdown`](./tutoriales/tt_08_tablas-Rmarkdown.html){target="_blank"} 
+- [Tutorial 08: Tablas con Rmarkdown](./tutoriales/tt_08_tablas-Rmarkdown.html){target="_blank"} 
 
 - [Tutorial 09: Introducción a GIS con R (WIP)](./tutoriales/tt_09_GIS-con-R.html){target="_blank"} 
 
