@@ -146,7 +146,7 @@ Too much for the first class? Igual sí. Al final veremos lo que podamos.
 
 ##### ¿Qué haremos en la tercera clase?
 
-- "Corregir" la primera entrega.
+- Corregir la primera entrega.
 
 
 - "Acabar" con el tema de R-base. Para ello utilizaremos las [Slides-03: R base](./slides/slides_03_R-base-01.html){target="_blank"}.
