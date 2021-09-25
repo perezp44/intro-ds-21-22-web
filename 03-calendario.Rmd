@@ -137,9 +137,9 @@ Too much for the first class? Igual sí. Al final veremos lo que podamos.
 
 - La principal tarea que tenéis que hacer está semana es repasar un poco lo que hemos visto y ver si te vas sintiendo cómodo en R/RStudio. 
 
--  Leer el **primer apartado** del [`Tutorial 03: R base`](./tutoriales/tt_03_R-base.html){target="_blank"}.
+-  Leer el **primer apartado** del [Tutorial 03: R base](./tutoriales/tt_03_R-base.html){target="_blank"}.
 
-- Leer e intentar ejecutar el código de las [Slides-03: R base](./slides/ss_03_R-base-01.html){target="_blank"}. 
+- Leer e intentar ejecutar el código de las [Slides-03: R base](./slides/slides_03_R-base-01.html){target="_blank"}. 
 
 
 <br>
@@ -149,9 +149,9 @@ Too much for the first class? Igual sí. Al final veremos lo que podamos.
 - "Corregir" la primera entrega.
 
 
-- "Acabar" con el tema de R-base. Para ello utilizaremos las [Slides-03: R base](./slides/ss_03_R-base-01.html){target="_blank"}.
+- "Acabar" con el tema de R-base. Para ello utilizaremos las [Slides-03: R base](./slides/slides_03_R-base-01.html){target="_blank"}.
 
-- Empezar a importar/exportar datos. Para ello usaremos las [Slides-04: Importar y exportar datos](./slides/ss_04_cargar-datos.html){target="_blank"}.
+- Empezar a importar/exportar datos. Para ello usaremos las [Slides-04: Importar y exportar datos](./slides/slides_04_cargar-datos.html){target="_blank"}.
 
 - Espero que tengamos tiempo para jugar con algunos ejemplos
   
