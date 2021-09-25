@@ -130,13 +130,32 @@ Too much for the first class? Igual sí. Al final veremos lo que podamos.
 <br>
 
 
+
 ##### **`Homework`** (para hacer antes de ir a clase) 
+
+- Leer el e-mail que os he mandado a vuestro correo de la UV. Allí están los detalles de la segunda entrega, que esta vez **sí forma parte de la evaluación continua**, así que, en realidad es la `entrega_01`. Hay que entregarla antes del jueves a las 23:59.
+
+- La principal tarea que tenéis que hacer está semana es repasar un poco lo que hemos visto y ver si te vas sintiendo cómodo en R/RStudio. 
+
+-  Leer el **primer apartado** del [`Tutorial 03: R base`](./tutoriales/tt_03_R-base.html){target="_blank"}.
+
+- Leer e intentar ejecutar el código de las [Slides-04: R base](./slides/ss_04_R-base-01/ss_04_R-base-01.html){target="_blank"}. 
 
 
 <br>
 
 ##### ¿Qué haremos en la tercera clase?
 
+- "Corregir" la primera entrega.
+
+
+- "Acabar" con el tema de R-base. Para ello utilizaremos las [Slides-04: R base](./slides/ss_04_R-base-01/ss_04_R-base-01.html){target="_blank"}.
+
+- Empezar a importar/exportar datos. Para ello usaremos las [Slides-05: Importar y exportar datos](./slides/ss_05_cargar-datos/ss_05_cargar-datos.html){target="_blank"}.
+
+- Espero que tengamos tiempo para jugar con algunos ejemplos
+  
+  
 
 <br>
 
