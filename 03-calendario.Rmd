@@ -139,7 +139,7 @@ Too much for the first class? Igual sí. Al final veremos lo que podamos.
 
 -  Leer el **primer apartado** del [`Tutorial 03: R base`](./tutoriales/tt_03_R-base.html){target="_blank"}.
 
-- Leer e intentar ejecutar el código de las [Slides-04: R base](./slides/ss_04_R-base-01/ss_04_R-base-01.html){target="_blank"}. 
+- Leer e intentar ejecutar el código de las [Slides-03: R base](./slides/ss_03_R-base-01.html){target="_blank"}. 
 
 
 <br>
@@ -149,9 +149,9 @@ Too much for the first class? Igual sí. Al final veremos lo que podamos.
 - "Corregir" la primera entrega.
 
 
-- "Acabar" con el tema de R-base. Para ello utilizaremos las [Slides-04: R base](./slides/ss_04_R-base-01/ss_04_R-base-01.html){target="_blank"}.
+- "Acabar" con el tema de R-base. Para ello utilizaremos las [Slides-03: R base](./slides/ss_03_R-base-01.html){target="_blank"}.
 
-- Empezar a importar/exportar datos. Para ello usaremos las [Slides-05: Importar y exportar datos](./slides/ss_05_cargar-datos/ss_05_cargar-datos.html){target="_blank"}.
+- Empezar a importar/exportar datos. Para ello usaremos las [Slides-04: Importar y exportar datos](./slides/ss_04_cargar-datos.html){target="_blank"}.
 
 - Espero que tengamos tiempo para jugar con algunos ejemplos
   
