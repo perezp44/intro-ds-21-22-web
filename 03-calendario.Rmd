@@ -170,11 +170,22 @@ Too much for the first class? Igual sí. Al final veremos lo que podamos.
 
 ##### **`Homework`** (para hacer antes de ir a clase) 
 
+- Esta semana no hay tarea para entregar pero si que tenéis tarea de leer, repasar y practicar, pensar en los trabajos  etc... vamos, ir metiéndoos en el universo R.
+
+- La principal tarea que tenéis que hacer está semana, otra vez, es repasar un poco lo que hemos visto; en concreto, leer e intentar ejecutar el código de las [Slides-04: Importar y exportar datos](./slides/slides_04_cargar-datos){target="_blank"}. 
+
 
 <br>
 
 
 ##### ¿Qué haremos en la cuarta clase?
+
+- Acabar las  [Slides-04: Importar y exportar datos](./slides/slides_04_cargar-datos){target="_blank"}. 
+
+- Realizar la **primera prueba en clase**. Será una prueba formativa que os ayudará a fijar las ideas y sintáxis para importar/exportar datos con R. Creo que os resultará relativamente fácil.
+
+- Empezar una de las partes principales del curso: manejo de datos con R à la tidyverse. Presentaremos ideas/conceptos como “the pipe” y “tidy data” y empezaremos a usar 2 paquetes del tidyverse: tidyr y dplyr, el principal paquete para manipular datos. Para ello utilizaremos las [Slides-05: Data munging](./slides/slides_05_data-munging){target="_blank"}. 
+
 
 <br>
 
