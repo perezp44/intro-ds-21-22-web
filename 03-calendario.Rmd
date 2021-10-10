@@ -194,15 +194,24 @@ Too much for the first class? Igual sí. Al final veremos lo que podamos.
 ## 5ª clase (15-oct)
 
 
-<br>
+- Leer el e-mail que os he mandado a vuestro correo de la UV. Esta vez sí hay entrega, la cuarta. El  viernes hicimos la tercera en clase.
 
-##### **`Homework`** (para hacer antes de ir a clase) 
+- Lee todo lo que puedas del [Tutorial 05: Data munging](./tutoriales/tt_05_data-munging.html){target="_blank"}. 
+
+- Leer e intentar ejecutar el código de las [Slides-05: Data munging](./slides/slides_05_data-munging){target="_blank"}.
+
 
 <br>
 
 ##### ¿Qué haremos en clase?
 
+- "Corregir" la `entrega_04`. Se trata de no repetir errores y aprender de ellos. Aunque igual lo hacéis genial y no hay ni un solo error.  🥇 ✅
+
+- Meternos de lleno con el `tidyverse`, concretamente con su principal paquete `dplyr`. Necesito que os leáis el tutorial 05 y las slides 05, please!!!!!
+
+- No creo que lleguemos, pero igual empezamos a hablar de ggplot2 y hacer nuestro primer super-gráfico. 📊 📉
   
+
 
 <br>
 
