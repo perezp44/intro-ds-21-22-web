@@ -29,9 +29,6 @@
        h6 {font-size: 12px;}
        code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
        pre:not([class]) { background-color: white }</style>
-<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
-<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
-<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
@@ -60,7 +57,6 @@
 
 
 
-<link rel="stylesheet" href="assets/styles_pjp.css" type="text/css" />
 
 
 
@@ -222,69 +218,6 @@ $(document).ready(function () {
 
 
 
-<style type="text/css">
-
-#TOC {
-  margin: 25px 0px 20px 0px;
-}
-@media (max-width: 768px) {
-#TOC {
-  position: relative;
-  width: 100%;
-}
-}
-
-@media print {
-.toc-content {
-  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
-  float: right;
-}
-}
-
-.toc-content {
-  padding-left: 30px;
-  padding-right: 40px;
-}
-
-div.main-container {
-  max-width: 1200px;
-}
-
-div.tocify {
-  width: 20%;
-  max-width: 260px;
-  max-height: 85%;
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-  div.tocify {
-    width: 25%;
-  }
-}
-
-@media (max-width: 767px) {
-  div.tocify {
-    width: 100%;
-    max-width: none;
-  }
-}
-
-.tocify ul, .tocify li {
-  line-height: 20px;
-}
-
-.tocify-subheader .tocify-item {
-  font-size: 0.90em;
-}
-
-.tocify .list-group-item {
-  border-radius: 0px;
-}
-
-
-</style>
-
-
 
 </head>
 
@@ -292,16 +225,6 @@ div.tocify {
 
 
 <div class="container-fluid main-container">
-
-
-<!-- setup 3col/9col grid for toc_float and main content  -->
-<div class="row">
-<div class="col-xs-12 col-sm-4 col-md-3">
-<div id="TOC" class="tocify">
-</div>
-</div>
-
-<div class="toc-content col-xs-12 col-sm-8 col-md-9">
 
 
 
@@ -384,196 +307,10 @@ div.tocify {
 </div>
 
 
-<p><br></p>
-<div id="calendario-de-clase-y-homework" class="section level3">
-<h3>Calendario de clase y <strong>HOMEWORK</strong></h3>
-<hr />
-<ul>
-<li><p>Este apartado iré actualizándolo conforme pasen las semanas. Aquí os dejaré las tareas previas a cada clase. <strong>TENÉIS</strong> que hacer las tareas previas.</p></li>
-<li><p>Las clases serán los viernes de 15:30 a 19:30 en el aula 103 del aulario Sur. Haremos descansos. Veremos cómo.</p></li>
-<li><p>Tenemos 13 sesiones. Intenta faltar lo menos posible y asiste, sí o sí, a las 3-4 primeras sesiones.</p></li>
-<li><p>Intentaré ajustar y acertar lo más posible la programación pero … , como sabéis, en una clase siempre puede haber incidentes/sorpresas.</p></li>
-</ul>
-<div class="blue">
-<p><br> Repito: Antes de venir a clase <strong>TENÉIS</strong> que hacer las tareas previas asignadas. <br></p>
-</div>
-<hr />
-<p><br></p>
-</div>
-<div id="ª-clase-18-sept" class="section level2">
-<h2>1ª clase (18-sept)</h2>
-<p><br></p>
-<div id="homework-para-hacer-antes-de-ir-a-clase" class="section level5">
-<h5><strong><code>Homework</code></strong> (para hacer antes de ir a clase)</h5>
-<ul>
-<li><p>Lee la sección <a href="https://perezp44.github.io/intro-ds-20-21-web/01-guia-del-curso.html"><code>Guía del curso</code></a> de la página web del curso.</p></li>
-<li><p>Créate una cuenta en <a href="https://github.com/" target="_blank">Github</a>. La usaremos para acceder a varios servicios web.</p></li>
-<li><p>Prepara tu ordenador; es decir, instálate R, RStudio y los paquetes. <a href="./mas-recursos/Instrucciones_instalacion-a.html" target="_blank">Aquí</a> tienes una guía para la instalación. Si tienes algún problema con la instalación contacta conmigo por email.</p></li>
-<li><p>Lee el primer turorial: <a href="./tutoriales/tt_01_introduccion.html" target="_blank"><code>Tutorial 01: Introducción</code></a>. Es solo leer, no hay que estudiar nada; además se lee fácil. Se trata simplemente de poner en contexto el curso y hablar un poco de que es esto de la “era del Big Data”, la ciencia de datos etc …</p></li>
-<li><p>Si quieres, puedes echarle un vistazo a las 2 primeras transparencias: <a href="./slides/ss_01_presentacion/ss_01_presentacion-curso.html" target="_blank">aquí</a> y <a href="./slides/ss_02_tema-1/ss_02_tema-1.html" target="_blank">aquí</a>.</p></li>
-</ul>
-<p><br></p>
-</div>
-<div id="qué-haremos-en-la-primera-clase" class="section level5">
-<h5>¿Qué haremos en la primera clase?</h5>
-<ul>
-<li><p>Lo primero presentar el curso</p></li>
-<li><p>Hablar de la evaluación y forma de trabajo en el curso.</p></li>
-<li><p>Hablar un poco de algunas de las ideas del Tema 1</p></li>
-<li><p>¿Cómo trabajaremos con R? Workflow</p></li>
-<li><p>Ejemplos iniciales</p></li>
-</ul>
-<p><br></p>
-</div>
-<div id="cosas-que-has-de-medio-entendersaber-hacer-después-de-la-clase" class="section level5">
-<h5>Cosas que has de (medio) entender/saber hacer después de la clase</h5>
-<p>Muchas veces para (medio) entender/saber hacer estas cosas tendrás que asistir a tutorías o estudiar o preguntar a un compañero, o ….</p>
-<ul>
-<li><p>¿Qué es la ciencia de datos?</p></li>
-<li><p>¿Qué es R y RStudio? ¿Y los paquetes?</p></li>
-<li><p>¿Qué son los ficheros .R? ¿Y los .Rmd? ¿Y los Rprojects?</p></li>
-<li><p>Saber interactuar con R a través de Rprojects</p></li>
-</ul>
-<p><br></p>
-<p>Too much for the first class? Igual sí. Al final veremos lo que podamos. Primero tenemos que adaptarnos a las condiciones .</p>
-<hr />
-<p><br></p>
-</div>
-</div>
-<div id="ª-clase-25-sept" class="section level2">
-<h2>2ª clase (25-sept)</h2>
-<p><br></p>
-<div id="homework-para-hacer-antes-de-ir-a-clase-1" class="section level5">
-<h5><strong><code>Homework</code></strong> (para hacer antes de ir a clase)</h5>
-<ul>
-<li><p>Leer el e-mail que os he mandado a vuestro correo de la UV y hacer (si quieres) las 3 tareas extra-oficiales que allí os cuento. Además, en el mail hay una cuarta tarea, está cuarta tarea sí es oficial, hay que hacerla.</p></li>
-<li><p>Leer el <a href="https://perezp44.github.io/intro-ds-20-21-web/tutoriales/tt_02_primeros-pasos-con-R.html">tutorial nº 2</a>. En el tutorial aparece una pequeña explicación de las ventajas de usar Rprojects y hace hincapié en el concepto de <strong>rutas relativas</strong>. Trata de entenderlo, lógicamente, pero si tienes dudas/problemas no pasa nada, lo trabajaremos en profundidad cuando empecemos el tutorial nº 04, supongo que en la tercera sesión/viernes del curso.</p></li>
-<li><p>Configurar RStudio. Para ello tienes que seguir las instrucciones que figuran en el tutorial nº 2, concretamente <a href="https://perezp44.github.io/intro-ds-20-21-web/tutoriales/tt_02_primeros-pasos-con-R.html#Configurando_RStudio">aquí</a>. Es importante que tengamos todos la misma configuración, ya explicaré la razón en clase.</p></li>
-</ul>
-<p><br></p>
-</div>
-<div id="qué-haremos-en-la-segunda-clase" class="section level5">
-<h5>¿Qué haremos en la segunda clase?</h5>
-<ul>
-<li><p>Finalizar las <a href="./slides/ss_03_inicio-curso/ss_03_primeros-pasos.html" target="_blank">Slides-03: Primeros pasos</a>. para tratar de acabar de entender/habituarnos a RStudio, los Rprojects etc …</p></li>
-<li><p>Estaremos un buen rato con el ejemplo “ej_01_ejemplo-inicial.R”; es un análisis muy simple, pero ejemplifica bien lo que haremos durante el curso.</p></li>
-<li><p>Utilizaremos el fichero “ej_01_ejemplo-inicial.Rmd” para crear una primera capa para entender los ficheros .Rmd</p></li>
-<li><p>Ver todo los que podamos de R-base, para ello utilizaremos las <a href="./slides/ss_04_R-base-01/ss_04_R-base-01.html" target="_blank">Slides-04: R base</a>. Es muy importante entender algunos conceptos como asignación, tipos de datos, estructuras de datos, funciones …</p></li>
-</ul>
-<p><br></p>
-<hr />
-<p><br></p>
-</div>
-</div>
-<div id="ª-clase-02-oct" class="section level2">
-<h2>3ª clase (02-oct)</h2>
-<p><br></p>
-<div id="homework-para-hacer-antes-de-ir-a-clase-2" class="section level5">
-<h5><strong><code>Homework</code></strong> (para hacer antes de ir a clase)</h5>
-<ul>
-<li><p>Leer el e-mail que os he mandado a vuestro correo de la UV. Allí están los detalles de la primera entrega que <strong>forma parte de la evaluación continua</strong>. Hay que entregarla antes del jueves 1 de octubre a las 23:59.</p></li>
-<li><p>La principal tarea que tenéis que hacer está semana es repasar un poco lo que hemos visto y ver si te vas sintiendo cómodo en R/RStudio.</p></li>
-<li><p>Volver a leer el primer apartado del <a href="./tutoriales/tt_03_R-base.html" target="_blank"><code>Tutorial 03: R base</code></a></p></li>
-<li><p>Leer e intentar ejecutar el código de las <a href="./slides/ss_04_R-base-01/ss_04_R-base-01.html" target="_blank">Slides-04: R base</a>.</p></li>
-<li><p>Leer e intentar ejecutar el código de las <a href="./slides/ss_05_cargar-datos/ss_05_cargar-datos.html" target="_blank">Slides-05: Importar y exportar datos</a>. Mejor si llegas al final, pero hasta donde llegues.</p></li>
-</ul>
-<p><br></p>
-</div>
-<div id="qué-haremos-en-la-tercera-clase" class="section level5">
-<h5>¿Qué haremos en la tercera clase?</h5>
-<ul>
-<li><p>“Corregir” la primera entrega.</p></li>
-<li><p>Hablar de la evaluación</p></li>
-<li><p>Acabar con el “tema” de R-base. Para ello utilizaremos las <a href="./slides/ss_04_R-base-01/ss_04_R-base-01.html" target="_blank">Slides-04: R base</a>.</p></li>
-<li><p>Empezar a importar/exportar datos. Para ello usaremos las <a href="./slides/ss_05_cargar-datos/ss_05_cargar-datos.html" target="_blank">Slides-05: Importar y exportar datos</a>.</p></li>
-</ul>
-<p><br></p>
-<hr />
-<p><br></p>
-</div>
-</div>
-<div id="ª-clase-16-oct" class="section level2">
-<h2>4ª clase (16-oct)</h2>
-<p><br></p>
-<div id="homework-para-hacer-antes-de-ir-a-clase-3" class="section level5">
-<h5><strong><code>Homework</code></strong> (para hacer antes de ir a clase)</h5>
-<ul>
-<li><p>Leer el e-mail que os he mandado a vuestro correo de la UV. Esta vez no hay entrega pero os hablo de varios asuntos.</p></li>
-<li><p>Otra vez, la principal tarea que tenéis que hacer es repasar lo que hemos visto.</p></li>
-<li><p>Leer e intentar ejecutar el código de las <a href="./slides/ss_05_cargar-datos/ss_05_cargar-datos.html" target="_blank">Slides-05: Importar y exportar datos</a>.</p></li>
-<li><p>Leer todo lo que puedas del <a href="./tutoriales/tt_05_data-munging.html" target="_blank"><code>Tutorial 05: Data munging</code></a>. El tutorial 04 no es importante que lo leas, pero sí el tutorial 05.</p></li>
-<li><p>Por favor, aquellos que no tengan bien configurado RStudio que lo hagan esta semana. Para ello tienes que seguir las instrucciones que figuran en el tutorial nº 2, concretamente <a href="https://perezp44.github.io/intro-ds-20-21-web/tutoriales/tt_02_primeros-pasos-con-R.html#Configurando_RStudio">aquí</a>.</p></li>
-</ul>
-<p><br></p>
-</div>
-<div id="qué-haremos-en-la-cuarta-clase" class="section level5">
-<h5>¿Qué haremos en la cuarta clase?</h5>
-<ul>
-<li><p>Hablar sobre los 2 proyectos que forman parte de la evaluación continua, principalmente del trabajo en equipo.</p></li>
-<li><p>Empezar por fin con el <code>tidyverse</code>:</p>
-<ul>
-<li><p>Aprenderemos a importar y exportar datos. para ello usaremos las <a href="./slides/ss_05_cargar-datos/ss_05_cargar-datos.html" target="_blank">Slides-05: Importar y exportar datos</a>.</p></li>
-<li><p>Empezar a manipular datos à la tidyverse. Presentaremos ideas/conceptos como “the pipe” y “tidy data” y empezaremos a usar 2 paquetes del tidyverse: <code>tidyr</code> y <code>dplyr</code>, el principal paquete para manipular datos. Para ello usaremos las <a href="./slides/ss_05_data-munging/ss_05_data-munging.html" target="_blank">Slides-05(bis): Data munging</a>.</p></li>
-</ul></li>
-</ul>
-<p><br></p>
-<hr />
-<p><br></p>
-</div>
-</div>
-<div id="ª-clase-23-oct" class="section level2">
-<h2>5ª clase (23-oct)</h2>
-<p><br></p>
-<div id="homework-para-hacer-antes-de-ir-a-clase-4" class="section level5">
-<h5><strong><code>Homework</code></strong> (para hacer antes de ir a clase)</h5>
-<ul>
-<li><p>Leer el e-mail que os he mandado a vuestro correo de la UV. Esta vez sí hay entrega, la tercera. Ayer hicimos la segunda en clase.</p></li>
-<li><p>Lee todo lo que puedas del <a href="./tutoriales/tt_05_data-munging.html" target="_blank"><code>Tutorial 05: Data munging</code></a>.</p></li>
-<li><p>Leer e intentar ejecutar el código de las <a href="./slides/ss_05_data-munging/ss_05_data-munging.html" target="_blank">Slides-05(bis): Data munging</a>.</p></li>
-</ul>
-<p><br></p>
-</div>
-<div id="qué-haremos-en-clase" class="section level5">
-<h5>¿Qué haremos en clase?</h5>
-<ul>
-<li><p>“Corregir” … bueno en realidad ver algunos de los fallos que tuvisteis en la <code>entrega_02</code> y en la <code>entrega_03</code>. Se trata de no repetir errores y aprender de ellos.</p></li>
-<li><p>Meternos de lleno con el <code>tidyverse</code>, concretamente con su principal paquete <code>dplyr</code>. Necesito que os leáis el tutorial 05 y las slides 05, please!!!!!</p></li>
-<li><p>Espero, no sé si lo conseguiremos, pero espero empezar a hablar de ggplot2 y hacer nuestro primer super-gráfico.</p></li>
-</ul>
-<p><br></p>
-<hr />
-<p><br></p>
-</div>
-</div>
-<div id="ª-clase-30-oct" class="section level2">
-<h2>6ª clase (30-oct)</h2>
-<p><br></p>
-<div id="homework-para-hacer-antes-de-ir-a-clase-5" class="section level5">
-<h5><strong><code>Homework</code></strong> (para hacer antes de ir a clase)</h5>
-<ul>
-<li><p>Leer el e-mail que os he mandado a vuestro correo de la UV. Esta vez también hay entrega: la cuarta. Esfuérzate e intenta aprender con ella el funcionamiento/sintaxis de <code>dplyr</code>.</p></li>
-<li><p>Repasa el <a href="./tutoriales/tt_05_data-munging.html" target="_blank"><code>Tutorial 05: Data munging</code></a>.</p></li>
-<li><p>Lee los 2 primeros apartados del <a href="./tutoriales/tt_06_ggplot2.html" target="_blank"><code>Tutorial 06: ggplot2</code></a>.</p></li>
-<li><p>Instalaros estos 2 paquetes: <code>robservable</code> y <code>wpp2019</code>. Los dos paquetes están en CRAN, así que podéis instalarlos con <code>install.packages("nombre_del_pkg")</code>. Acordaros de que, para evitar problemas, es mejor instalar los paquetes desde una sesión limpia de R.</p></li>
-</ul>
-<p><br></p>
-</div>
-<div id="qué-haremos-en-clase-1" class="section level5">
-<h5>¿Qué haremos en clase?</h5>
-<ul>
-<li><p>Corregir la <code>entrega_04</code>.</p></li>
-<li><p>Acabar el tutorial 05. Espero que a mitad de clase, un poco antes.</p></li>
-<li><p>Empezar con las ideas básicas de ggplot2 y está vez sí, hacer nuestro primer super-gráfico.</p></li>
-</ul>
-<p><br></p>
-<hr />
-<p><br></p>
-</div>
-</div>
 <div id="ª-clase-06-nov" class="section level2">
 <h2>7ª clase (06-nov)</h2>
 <p><br></p>
-<div id="homework-para-hacer-antes-de-ir-a-clase-6" class="section level5">
+<div id="homework-para-hacer-antes-de-ir-a-clase" class="section level5">
 <h5><strong><code>Homework</code></strong> (para hacer antes de ir a clase)</h5>
 <ul>
 <li><p>Leer el e-mail que os he mandado a vuestro correo de la UV. Esta vez es muy escueto, pero en él os he mandado la entrega_05_casa. Se trata de practicar un poco más manejo de datos con tidyverse</p></li>
@@ -586,7 +323,7 @@ Acordaros de que, para evitar problemas, siempre es mejor instalar los paquetes 
 </ul>
 <p><br></p>
 </div>
-<div id="qué-haremos-en-clase-2" class="section level5">
+<div id="qué-haremos-en-clase" class="section level5">
 <h5>¿Qué haremos en clase?</h5>
 <ul>
 <li><p>Corregir la <code>entrega_05</code>. Está vez sí la corregiremos.</p></li>
@@ -601,7 +338,7 @@ Acordaros de que, para evitar problemas, siempre es mejor instalar los paquetes 
 <div id="ª-clase-13-nov" class="section level2">
 <h2>8ª clase (13-nov)</h2>
 <p><br></p>
-<div id="homework-para-hacer-antes-de-ir-a-clase-7" class="section level5">
+<div id="homework-para-hacer-antes-de-ir-a-clase-1" class="section level5">
 <h5><strong><code>Homework</code></strong> (para hacer antes de ir a clase)</h5>
 <ul>
 <li><p>Esta semana, como sabéis, no hay tarea para entregar. Bien!!!! Ya era hora, no?</p></li>
@@ -610,7 +347,7 @@ Acordaros de que, para evitar problemas, siempre es mejor instalar los paquetes 
 </ul>
 <p><br></p>
 </div>
-<div id="qué-haremos-en-clase-3" class="section level5">
+<div id="qué-haremos-en-clase-1" class="section level5">
 <h5>¿Qué haremos en clase?</h5>
 <ul>
 <li><p>Continuar con el tutorial 06, concretamente, ver algunas ideas y herramientas relacionadas con la visualización y <code>ggplot2</code>.</p></li>
@@ -625,7 +362,7 @@ Acordaros de que, para evitar problemas, siempre es mejor instalar los paquetes 
 <div id="ª-clase-20-nov" class="section level2">
 <h2>9ª clase (20-nov)</h2>
 <p><br></p>
-<div id="homework-para-hacer-antes-de-ir-a-clase-8" class="section level5">
+<div id="homework-para-hacer-antes-de-ir-a-clase-2" class="section level5">
 <h5><strong><code>Homework</code></strong> (para hacer antes de ir a clase)</h5>
 <ul>
 <li><p>Empezar a aprender a escribir en <code>Rmarkdown</code>, para eso tienes que entregar el miércoles 18 de noviembre la <code>tarea_07</code> de la que os he informado por e-mail.</p></li>
@@ -633,7 +370,7 @@ Acordaros de que, para evitar problemas, siempre es mejor instalar los paquetes 
 </ul>
 <p><br></p>
 </div>
-<div id="qué-haremos-en-clase-4" class="section level5">
+<div id="qué-haremos-en-clase-2" class="section level5">
 <h5>¿Qué haremos en clase?</h5>
 <ul>
 <li><p>“Corregir” la tarea_07; en realidad ver algunos errores que no hay que cometer.</p></li>
@@ -650,14 +387,14 @@ Acordaros de que, para evitar problemas, siempre es mejor instalar los paquetes 
 <div id="ª-clase-27-nov" class="section level2">
 <h2>10ª clase (27-nov)</h2>
 <p><br></p>
-<div id="homework-para-hacer-antes-de-ir-a-clase-9" class="section level5">
+<div id="homework-para-hacer-antes-de-ir-a-clase-3" class="section level5">
 <h5><strong><code>Homework</code></strong> (para hacer antes de ir a clase)</h5>
 <ul>
 <li>Os he mandado por mail la <code>tarea-08</code>, se trata de practicar un poco más con ggplot2 y hacer vuestros primeros mapas.</li>
 </ul>
 <p><br></p>
 </div>
-<div id="qué-haremos-en-clase-5" class="section level5">
+<div id="qué-haremos-en-clase-3" class="section level5">
 <h5>¿Qué haremos en clase?</h5>
 <ul>
 <li><p>Corregir la <code>tarea_08</code>.</p></li>
@@ -672,7 +409,7 @@ Acordaros de que, para evitar problemas, siempre es mejor instalar los paquetes 
 <div id="ª-clase-04-dic" class="section level2">
 <h2>11ª clase (04-dic)</h2>
 <p><br></p>
-<div id="homework-para-hacer-antes-de-ir-a-clase-10" class="section level5">
+<div id="homework-para-hacer-antes-de-ir-a-clase-4" class="section level5">
 <h5><strong><code>Homework</code></strong> (para hacer antes de ir a clase)</h5>
 <ul>
 <li><p>No hay homework!!! 🙌 👏 👏</p></li>
@@ -681,7 +418,7 @@ Acordaros de que, para evitar problemas, siempre es mejor instalar los paquetes 
 </ul>
 <p><br></p>
 </div>
-<div id="qué-haremos-en-clase-6" class="section level5">
+<div id="qué-haremos-en-clase-4" class="section level5">
 <h5>¿Qué haremos en clase?</h5>
 <ul>
 <li><p>Lo que no hicimos en la anterior clase debido a las lluvias: mapas, mapas y más mapas; bueno en realidad vamos a usar R para hacer una introducción a GIS, Geographic Information Systems o, Sistemas de Información Geográfica (SIG). 🇦🇶 🗾</p></li>
@@ -696,7 +433,7 @@ Acordaros de que, para evitar problemas, siempre es mejor instalar los paquetes 
 <div id="ª-clase-11-dic" class="section level2">
 <h2>12ª clase (11-dic)</h2>
 <p><br></p>
-<div id="homework-para-hacer-antes-de-ir-a-clase-11" class="section level5">
+<div id="homework-para-hacer-antes-de-ir-a-clase-5" class="section level5">
 <h5><strong><code>Homework</code></strong> (para hacer antes de ir a clase)</h5>
 <ul>
 <li><p>Tenéis que ir haciendo el trabajo en equipo. No!!!!, haciendo no, tenéis que ir <strong>acabando el trabajo en equipo</strong></p></li>
@@ -704,7 +441,7 @@ Acordaros de que, para evitar problemas, siempre es mejor instalar los paquetes 
 </ul>
 <p><br></p>
 </div>
-<div id="qué-haremos-en-clase-7" class="section level5">
+<div id="qué-haremos-en-clase-5" class="section level5">
 <h5>¿Qué haremos en clase?</h5>
 <ul>
 <li><p>Explicar algo, un poco, de EDA y modelos (tutorial nº 10)</p></li>
@@ -722,7 +459,7 @@ Acordaros de que, para evitar problemas, siempre es mejor instalar los paquetes 
 <div id="ª-clase-18-dic" class="section level2">
 <h2>13ª clase (18-dic)</h2>
 <p><br></p>
-<div id="homework-para-hacer-antes-de-ir-a-clase-12" class="section level5">
+<div id="homework-para-hacer-antes-de-ir-a-clase-6" class="section level5">
 <h5><strong><code>Homework</code></strong> (para hacer antes de ir a clase)</h5>
 <ul>
 <li><p>Acabar y dejar chulos-chulos los trabajos en equipo. No os olvidéis de subir la última versión a Github</p></li>
@@ -730,7 +467,7 @@ Acordaros de que, para evitar problemas, siempre es mejor instalar los paquetes 
 </ul>
 <p><br></p>
 </div>
-<div id="qué-haremos-en-clase-8" class="section level5">
+<div id="qué-haremos-en-clase-6" class="section level5">
 <h5>¿Qué haremos en clase?</h5>
 <ul>
 <li><p>Yo, relajarme y escuchar.</p></li>
@@ -753,8 +490,6 @@ Acordaros de que, para evitar problemas, siempre es mejor instalar los paquetes 
 
 
 
-</div>
-</div>
 
 </div>
 
@@ -787,35 +522,6 @@ $(document).ready(function () {
 
 <!-- code folding -->
 
-<script>
-$(document).ready(function ()  {
-
-    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
-    $('.unlisted.unnumbered').addClass('toc-ignore')
-
-    // move toc-ignore selectors from section div to header
-    $('div.section.toc-ignore')
-        .removeClass('toc-ignore')
-        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
-
-    // establish options
-    var options = {
-      selectors: "h1,h2,h3",
-      theme: "bootstrap3",
-      context: '.toc-content',
-      hashGenerator: function (text) {
-        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
-      },
-      ignoreSelector: ".toc-ignore",
-      scrollTo: 0
-    };
-    options.showAndHide = true;
-    options.smoothScroll = true;
-
-    // tocify
-    var toc = $("#TOC").tocify(options).data("toc-tocify");
-});
-</script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

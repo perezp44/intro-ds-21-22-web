@@ -221,16 +221,32 @@ Too much for the first class? Igual sí. Al final veremos lo que podamos.
 
 ## 6ª clase (22-oct)
 
-
 <br>
 
+- Hay que hacer la `entrega_05`. ya la empezamos en clase, ahora se trata de acabarla. Esfuérzate e intenta aprender con ella el funcionamiento/sintaxis de `dplyr`.
+
+- Repasa el [`Tutorial 05: Data munging`](./tutoriales/tt_05_data-munging.html){target="_blank"}. 
+
+- Lee los 2 primeros apartados del [`Tutorial 06: ggplot2`](./tutoriales/tt_06_ggplot2.html){target="_blank"}.
+
+- Instalaros estos 3 paquetes: `robservable`, `wikifacts` y `coronavirus`. Los dos primeros paquetes están en CRAN, así que podéis instalarlos con `install.packages("nombre_del_pkg")`; el último instaladlo con `remotes::install_github("RamiKrispin/coronavirus")`. Acordaros de que, para evitar problemas, es mejor instalar los paquetes desde una sesión limpia de R.
+ 
 
 
 <br>
 
 ##### ¿Qué haremos en clase?
 
+- Corregir la `entrega_05`.
 
+- Acabar el `tutorial 05`. No queda mucho: fusionar tablas, algunos consejos y practicar un poco más; para ello empezaremos (en parejas) la `entrega_06`.
+
+- Haremos un ejemplo ya realista: manejaremos datos sobre coronavirus y lo visualizaremos con el package [robservable](`https://github.com/juba/robservable)
+
+- Igual os hablo un poquito de [Wikidata](https://www.wikidata.org/wiki/Wikidata:Main_Page) y hacemos algunas queries (espero).
+
+- Empezar con las ideas básicas de ggplot2 y está vez sí, hacer nuestro primer super-gráfico.
+  
 
 
 <br>

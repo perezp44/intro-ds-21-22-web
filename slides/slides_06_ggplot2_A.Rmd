@@ -497,6 +497,19 @@ ggplot(iris) +
 ```
 
 
+---
+
+##### veremos alguna vez otros gráficos? 
+
+- SÍ!!!! pero aún falta un poco, hemos de ver más cosas (y sí, usando `iris`). 
+
+- Si no puedes eperarte ve a está [Graph gallery](https://exts.ggplot2.tidyverse.org/gallery/)
+
+##### *the  aesthetic parameters* de cada geom_xx()
+
+- Cuando empecemos a hacer otros tipos de gráficos será de utilidad conocer que parámetros tiene cada `geom_xx()`.
+
+- Podremos verlos consultando la ayuda de cada `geom`, pero también puedes verlas [aquí](https://www.yihanwu.ca/post/geoms-and-aesthetic-parameters/)
 
 ---
 class: inverse, center, middle

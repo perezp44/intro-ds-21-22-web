@@ -152,17 +152,17 @@ background-image: url(imagenes/ss_06_img_01_ggplot2-hex.png)
 background-position: 95% 5%
 background-size: 8%
 
-## 3.1 Títulos del gráfico
+### 3.1 Títulos del gráfico
 
 <br>
 
 <html><div style='float:left'></div><hr color='#EB811B' size=1px width=796px></html>
 
-#### Un gráfico para ser efectivo y mostrar su mensaje con claridad debe tener un título y/o subtítulo ilustrativos y mostrar información relevante sobre las variables que se grafican 
+###### Un gráfico para ser efectivo y mostrar su mensaje con claridad debe tener un título y/o subtítulo ilustrativos y mostrar información relevante sobre las variables que se grafican 
 
 <br>
 
-#### Este tipo de elementos pueden modificarse de varias maneras, pero nos centraremos en la función *labs()*
+###### Este tipo de elementos pueden modificarse de varias maneras, pero nos centraremos en la función *labs()*
 
 ---
 ##### añadiendo títulos, leyenda, etc ...a un ggplot
@@ -248,7 +248,7 @@ background-size: 8%
 
 <html><div style='float:left'></div><hr color='#EB811B' size=1px width=796px></html>
 
-##### Themes control the display of all non-data elements of the plot. You can override all settings with a complete theme like *theme_bw()*, or choose to tweak individual settings by using *theme()*
+###### Themes control the display of all non-data elements of the plot. You can override all settings with a complete theme like *theme_bw()*, or choose to tweak individual settings by using *theme()*
 
 
 ---
@@ -345,14 +345,14 @@ p + theme(plot.background = element_rect(fill = "pink", colour = "purple", linet
 ```
 
 ---
-#### ¿cómo se llaman todos los elementos del gráfico?
+##### ¿cómo se llaman todos los elementos del gráfico?
 
 
 ```{r, eval = TRUE}
 knitr::include_url("https://henrywang.nl/ggplot2-theme-elements-demonstration/")
 ```
 
-
+- También  se pueden ver [aquí](https://isabella-b.com/blog/ggplot2-theme-elements-reference/)
 ---
 ##### colores ( 🖥 🎨 )
 
@@ -376,10 +376,10 @@ background-size: 8%
 
 <html><div style='float:left'></div><hr color='#EB811B' size=1px width=796px></html>
 
-##### El sistema gráfico de ggplot2 incorpora una técnica especial llamada “faceting” que permite dividir un gráfico en múltiples gráficos. 
+###### El sistema gráfico de ggplot2 incorpora una técnica especial llamada “faceting” que permite dividir un gráfico en múltiples gráficos. 
 <br>
 
-##### Cada uno de esos múltiples gráficos se realiza sólo para las observaciones de una de los valores de una variable categórica (o factor) incluido en el conjunto de datos. Es más fácil hacerlo que explicarlo/escribirlo.
+###### Cada uno de esos múltiples gráficos se realiza sólo para las observaciones de una de los valores de una variable categórica (o factor) incluido en el conjunto de datos. Es más fácil hacerlo que explicarlo/escribirlo.
 
 ---
 ##### small multiples (o facetting)
@@ -460,11 +460,11 @@ background-image: url(imagenes/ss_06_img_01_ggplot2-hex.png)
 background-position: 95% 5%
 background-size: 10%
 
-## 3.4 Más elementos de *ggplot2*: Anotaciones (!!)
+### 3.4 Más elementos de *ggplot2*: Anotaciones (!!)
 
 <html><div style='float:left'></div><hr color='#EB811B' size=1px width=796px></html>
 
-##### Annotations are a special type of layer that .orange[don’t] inherit global settings from the plot. They are used to add fixed reference data to plots
+###### Annotations are a special type of layer that .orange[don’t] inherit global settings from the plot. They are used to add fixed reference data to plots
 
 ---
 ##### 3.4 Más elementos de *ggplot2*: Anotaciones (!!)
@@ -573,11 +573,11 @@ background-image: url(imagenes/ss_06_img_01_ggplot2-hex.png)
 background-position: 95% 5%
 background-size: 10%
 
-## 3.5 Más elementos de ggplot2: límites de los ejes
+### 3.5 Más elementos de ggplot2: límites de los ejes
 
 <html><div style='float:left'></div><hr color='#EB811B' size=1px width=796px></html>
 
-##### Los límites del gráfico suelen obtenerse automáticamente pero a veces nos puede interesar cambiarlos
+###### Los límites del gráfico suelen obtenerse automáticamente pero a veces nos puede interesar cambiarlos
 
 ---
 ##### 3.5 Más elementos de ggplot2: límites de los ejes
@@ -685,11 +685,11 @@ background-image: url(imagenes/ss_06_img_01_ggplot2-hex.png)
 background-position: 95% 5%
 background-size: 10%
 
-## 3.6 Más elementos de *ggplot2*: Escalas (!!)
+### 3.6 Más elementos de *ggplot2*: Escalas (!!)
 
 <html><div style='float:left'></div><hr color='#EB811B' size=1px width=796px></html>
 
-##### Las escalas permiten interpretar los elementos geométricos (por ejemplo los puntos) en función de los valores originales de las observaciones. *Scales control the details of how data values are translated to visual properties*.
+###### Las escalas permiten interpretar los elementos geométricos (por ejemplo los puntos) en función de los valores originales de las observaciones. *Scales control the details of how data values are translated to visual properties*.
 
 ---
 ##### 3.6 Más elementos de *ggplot2*: Escalas (!!)
@@ -766,7 +766,7 @@ background-image: url(imagenes/ss_06_img_01_ggplot2-hex.png)
 background-position: 95% 5%
 background-size: 10%
 
-## 3.7 Más elementos de ggplot2: Stats(!!!!)
+### 3.7 Más elementos de ggplot2: Stats(!!!!)
 
 <html><div style='float:left'></div><hr color='#EB811B' size=1px width=796px></html>
 
@@ -787,7 +787,7 @@ background-size: 10%
 - Cuando hacíamos:
 
 ```{r, eval = FALSE}
-ggplot(iris, aes(Petal.Length, Sepal.Length)) +
+ggplot(iris, aes(Petal.Length, Sepal.Length)) + geom_point()
 ```
 
 - En realidad, estamos haciendo:
@@ -868,11 +868,11 @@ background-image: url(imagenes/ss_06_img_01_ggplot2-hex.png)
 background-position: 95% 5%
 background-size: 10%
 
-## 3.8 Más elementos: Position adjustments
+### 3.8 Más elementos: Position adjustments
 
 <html><div style='float:left'></div><hr color='#EB811B' size=1px width=796px></html>
 
-#### All layers have a position adjustment that resolves overlapping geoms. Override the default by using the position argument to the geom_ or stat_ function.
+###### All layers have a position adjustment that resolves overlapping geoms. Override the default by using the position argument to the geom_ or stat_ function.
 
 
 
@@ -925,14 +925,14 @@ p1 + p2 + p3 + p4 + plot_layout(nrow = 2, byrow = TRUE)
 class: inverse, center, middle
 
 
-## 4. Combinando gráficos
+### 4. Combinando gráficos
 
 <html><div style='float:left'></div><hr color='#EB811B' size=1px width=796px></html>
 
 
-#### A veces interesa crear una figura compuesta de varios gráficos diferentes. 
+###### A veces interesa crear una figura compuesta de varios gráficos diferentes. 
 
-#### Podemos usar varios paquetes: gridExtra, patchwork o cowplot
+###### Podemos usar varios paquetes: gridExtra, patchwork o cowplot
 
 
 ---
@@ -983,14 +983,14 @@ p_twitter + ((p1 + plot_spacer()) / (p_img + p3))
 class: inverse, center, middle
 
 
-## 5. Exportando gráficos
+### 5. Exportando gráficos
 
 <html><div style='float:left'></div><hr color='#EB811B' size=1px width=796px></html>
 
 
-#### A veces necesitaremos guardar el gráfico en un fichero.
+###### A veces necesitaremos guardar el gráfico en un fichero.
 
-#### Piensa que estamos guardando la imagen, la representación del gráfico, no el objeto R.
+###### Piensa que estamos guardando la imagen, la representación del gráfico, no el objeto R.
 
 ---
 ##### 5. Exportando gráficos
@@ -1026,9 +1026,9 @@ class: inverse, center, middle
 <html><div style='float:left'></div><hr color='#EB811B' size=1px width=796px></html>
 
 
-#### Hay varios asistentes para crear o modificar gráficos ggplot a través de interfaces gráficas.
+###### Hay varios asistentes para crear o modificar gráficos ggplot a través de interfaces gráficas.
 
-#### Por ejemplo: ggThemeAssist, esquisse y ggannotate
+###### Por ejemplo: ggThemeAssist, esquisse y ggannotate
 
 
 ---
