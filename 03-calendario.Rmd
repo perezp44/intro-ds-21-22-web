@@ -262,11 +262,25 @@ Too much for the first class? Igual sí. Al final veremos lo que podamos.
 
 ##### **`Homework`** (para hacer antes de ir a clase) 
 
+- Acabar la `entrega_06`. En la última pregunta tenéis que hacer vuestro primer super-gráfico.
 
+- Lee todo lo que puedas del [`Tutorial 06: ggplot2`](./tutoriales/tt_06_ggplot2.html){target="_blank"}.
+
+- Pégale un vistazo a las  [`Slides-06(A): ggplot2 (primeras ideas)`](./slides/ss_06_ggplot2_B.html){target="_blank"}, y si puedes, también a las [`Slides-06(B): ggplot2 (más elementos)`](./slides/ss_06_ggplot2_B.html){target="_blank"}.
+
+
+- Instalaros estos 3 paquetes: [ggThemeAssist](https://github.com/calligross/ggthemeassist), [esquisse](https://dreamrs.github.io/esquisse/index.html) y [ggannotate](https://github.com/MattCowgill/ggannotate). Los dos primeros paquetes están en CRAN, así que podéis instalarlos con `install.packages("nombre_del_pkg")`. Igual ya los tenéis instalados. Podéis probarlo con `library()`. El tercer paquete no está en CRAN, podéis instalarlo con `remotes::install_github("mattcowgill/ggannotate")`. Acordaros de que, para evitar problemas, siempre es mejor instalar los paquetes desde una sesión limpia de R. 
+ 
 
 <br>
 
 ##### ¿Qué haremos en clase?
+
+- Corregir la `entrega_06`.
+
+- Seguir con ggplot2: recordar las ideas básicas con [`Slides-06(A): ggplot2 (primeras ideas)`](./slides/ss_06_ggplot2_B.html){target="_blank"} e introducir más elementos de los gráficos ggplot: [`Slides-06(B): ggplot2 (más elementos)`](./slides/ss_06_ggplot2_B.html){target="_blank"}.
+
+- Como la clase estará totalmente dedicada a `ggplot2`, supongo que haremos algunos ejemplos en los que se cargarán datos, se arreglarán, para finalmente hacer un gráfico chulo. No lo entenderemos del todo, pero casi-casi.
 
 
 <br>
@@ -274,6 +288,7 @@ Too much for the first class? Igual sí. Al final veremos lo que podamos.
 -----------------------
 
 <br>
+
 
 ## 8ª clase (05-nov)
 
