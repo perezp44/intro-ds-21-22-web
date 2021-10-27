@@ -63,14 +63,14 @@ Hacer cuadros/tablas para mostrar resultados es una parte importante (y time con
 
 
 
-Veremos que presentar los resultados (previamente almacenados en un df) como un cuadro en el documento final es muy sencillo, sólo tenemos que llamar a la función `kable()`, pero si queremos tener más flexibilidad y opciones para mejorar nuestras tablas tendremos que usar otros paquetes como `kableextra`, `formatable`, `DT` o más recientemente `gt`.
+Veremos que presentar los resultados (previamente almacenados en un df) como un cuadro en el documento final es muy sencillo, sólo tenemos que llamar a la función `kable()`, pero si queremos tener más flexibilidad y opciones para mejorar nuestras tablas tendremos que usar otros paquetes como `kableextra`, `formatable`, `flextable`, `DT` o más recientemente `gt` y `reactable`
 
 
-En [este hilo](https://twitter.com/GoldbergData/status/1292935454195511302) de Twitter se ó recientemente sobre cuales eran los mejores paquetes R para hacer tablas. En [este post](https://rfortherestofus.com/2019/11/how-to-make-beautiful-tables-in-r/), David Keyes hace un muy buen tutorial sobre paquetes para hacer tablas en R.
+En [este hilo](https://twitter.com/GoldbergData/status/1292935454195511302) de Twitter se habló sobre cuales eran los mejores paquetes R para hacer tablas. En [este post](https://rfortherestofus.com/2019/11/how-to-make-beautiful-tables-in-r/), David Keyes hace un muy buen tutorial sobre los paquetes disponibles para hacer tablas en R.
 
-Al igual que con los gráficos, para hacer buenas tablas ^[En realidad en castellano debería llamarlos cuadros] hace falta tener en cuenta algunos aspectos. Este [post](https://paulvanderlaken.com/2020/09/01/10-guidelines-to-better-table-design/) proporciona 10 reglas o consejos para generar tablas efectivas. En este otro [post](https://themockup.blog/posts/2020-09-04-10-table-rules-in-r/#guidelines-with-gt), Thomas Mock implementa esas 10 reglas con el paquete `gt`.
+Al igual que con los gráficos, para hacer buenas tablas ^[En realidad en castellano debería llamarlos cuadros, pero ...] hace falta tener en cuenta algunos aspectos. Este [post](https://paulvanderlaken.com/2020/09/01/10-guidelines-to-better-table-design/) proporciona 10 reglas o consejos para generar tablas efectivas. En este otro [post](https://themockup.blog/posts/2020-09-04-10-table-rules-in-r/#guidelines-with-gt), Thomas Mock implementa esas 10 reglas con el paquete `gt`.
 
-En el siguiente apartado utilizaremos unos datos de ejemplo para obtener unos resultados que queremos mostrar como tablas en nuestro informe. Esto nos servirá para practicar un poco más con `dplyr` y aprender a crear tablas desde documentos .Rmd, ya que una vez tengamos los resultados que queremos mostrar, mostraremos distintas posibilidades para mostrarlos en tablas/cuadros good-looking.
+En el siguiente apartado utilizaremos unos datos de ejemplo para obtener unos resultados que queremos mostrar como tablas en nuestro informe. Esto nos servirá para practicar un poco más con `dplyr` y aprender a crear tablas desde documentos .Rmd, ya que una vez tengamos los resultados que queremos mostrar, presentaremos distintas posibilidades para mostrarlos en tablas/cuadros good-looking.
 
 -------------------
 
@@ -92,8 +92,8 @@ Ilustraremos la creación de tablas con datos de la segunda ronda de **PIACC** (
 Cargamos los datos que vamos a utilizar:
 
 ```{r, echo = TRUE}
-urla <- "https://raw.githubusercontent.com/perezp44/iris_data/master/data/PIAAC_data_small.csv"
-df <- read_csv(urla)
+my_url <- "https://raw.githubusercontent.com/perezp44/iris_data/master/data/PIAAC_data_small.csv"
+df <- read_csv(my_url)
 ```
 
 
@@ -123,7 +123,7 @@ Para iniciar nuestra andadura con las tablas, intentaremos mostrar en tablas alg
 - 1. Cuadro con el número de observaciones de cada país (lo hacemos de 2 formas)
 
 ```{r, echo = TRUE}
-df_tt_1 <- df %>% group_by(Country) %>% count()
+df_tt_1 <- df %>% count(Country)
 df_tt_1 <- df %>% group_by(Country) %>% summarise(NN = n())
 
 knitr::kable(df_tt_1)
@@ -196,7 +196,7 @@ knitr::kable(df_tt_4)
 
 
 
-- 5. Veamos el salario medio por país
+- 5. Calculamos el salario medio por país
 
 
 ```{r, echo = TRUE}
@@ -208,7 +208,7 @@ knitr::kable(df_tt_5)
 
 <br>
 
-- 6. Calcula la media, el mínimo, el máximo y la desviación típica de Wage_month
+- 6. Calculamos la media, el mínimo, el máximo y la desviación típica de Wage_month
 
 ```{r, echo = TRUE}
 df_tt_6 <- df %>% group_by(Country) %>% 
@@ -223,7 +223,7 @@ knitr::kable(df_tt_6)
 
 <br>
 
-- 7. salario medio en España (Hombre y Mujeres)
+- 7. Salario medio en España (Hombres y Mujeres)
 
 
 ```{r, echo = TRUE}
@@ -237,7 +237,7 @@ knitr::kable(df_tt_7)
 
 <br>
 
-- 8. salario medio en los 4 los países (Hombre y Mujeres)
+- 8. Salario medio en los 4 los países (Hombres y Mujeres)
 
 ```{r, echo = TRUE}
 df_tt_8 <- df %>% group_by(Country, Gender) %>% 
@@ -439,6 +439,18 @@ knitr::kable(df_tt_12, format = "html") %>%
 ```
 
 
+Se le puede poner un scroll:
+
+```{r}
+df_tt_12 %>%
+  knitr::kable("html") %>%
+  kableExtra::kable_styling(font_size = 11) %>%
+  kableExtra::scroll_box(width = "50%", height = "60%")
+```
+
+<br>
+
+
 Se puede incluso poner las tablas junto con el texto.
 
 
@@ -479,7 +491,19 @@ kable(df_tt_12) %>%
 
 
 
-Puedes ver las posibilidades de este pkg en su [vignette](https://cran.r-project.org/web/packages/kableExtra/vignettes/awesome_table_in_html.html).
+Puedes ver las posibilidades de este pkg en su [vignette](https://cran.r-project.org/web/packages/kableExtra/vignettes/awesome_table_in_html.html). Fijate que tabla más chula hay allí:
+
+```{r}
+mtcars[1:8, 1:8] %>%
+  kbl() %>%
+  kable_paper(full_width = F) %>%
+  column_spec(2, color = spec_color(mtcars$mpg[1:8]),
+              link = "https://haozhu233.github.io/kableExtra/") %>%
+  column_spec(6, color = "white",
+              background = spec_color(mtcars$drat[1:8], end = 0.7),
+              popover = paste("am:", mtcars$am[1:8]))
+```
+
 
 
 <br>
@@ -548,7 +572,7 @@ df %>% formattable(list(
 
 ## 4.2 `flextable` pkg
 
-El paquete [`flextable`](https://davidgohel.github.io/flextable/articles/overview.html) es relativamente nuevo y tiene la ventaja de que provee un entorno para crear de forma relativamente sencilla tablas estadísticas para informes. Una de sus ventajas es que puede generar tablas para documentos html, Word, Powerpoint y pdf.
+El paquete [`flextable`](https://davidgohel.github.io/flextable/articles/overview.html) es relativamente nuevo y tiene la ventaja de que provee un entorno para crear de forma relativamente sencilla tablas estadísticas para informes. Una de sus ventajas es que puede generar tablas para documentos html, Word, Powerpoint y pdf. [Aquí](https://ardata-fr.github.io/flextable-book/) tienes un bookdown sobre flextable.
 
 Las tablas hechas con `flextable` pueden exportarse a :
 
@@ -635,7 +659,7 @@ gt_tbl
 ```{r}
 # Añadimos la misma nota al pie a dos celdas de la tabla
 # Para seleccionar las celdas que llevarán la footnote se usa la f. `cell_body()`
-gt_tbl <- gt_tbl %>% tab_footnote("Por encima del 60%", cells_body(vars(Tertiary, `NA`), rows = 1) )
+gt_tbl <- gt_tbl %>% tab_footnote("Por encima del 60%", cells_body(c(Tertiary, `NA`), rows = 1) )
 
 # Show the gt Table
 gt_tbl
@@ -667,9 +691,9 @@ Un ejemplo que me ha gustado es [este](https://github.com/sharlagelfand/twofunct
 Para ello, primero, añado una columna con los  url's de las fotos al data.frame `iris`:
 
 ```{r}
-urls_lirios <- c("https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Lirio.jpg/800px-Lirio.jpg",
-                 "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Nacho_Vegas_Fib.jpg/800px-Nacho_Vegas_Fib.jpg",
-                 "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/R%C3%ADo_Pancrudo%2C_Luco_de_Jiloca%2C_Teruel%2C_Espa%C3%B1a%2C_2014-01-08%2C_DD_12.jpg/1920px-R%C3%ADo_Pancrudo%2C_Luco_de_Jiloca%2C_Teruel%2C_Espa%C3%B1a%2C_2014-01-08%2C_DD_12.jpg")
+urls_lirios <- c("https://commons.wikimedia.org/wiki/File:L%C3%ADrio_.jpg",
+                 "https://commons.wikimedia.org/wiki/File:D%C3%BClmen,_Hausd%C3%BClmen,_Mohn_am_Heubach_--_2021_--_0553.jpg",
+                 "https://commons.wikimedia.org/wiki/File:Nacho_Vegas_Fib.jpg")
 
 iris_con_urls <- iris %>% group_by(Species) %>% slice_max(Sepal.Length, n = 1) %>% add_column(urls_lirios) %>% ungroup()
 ```
@@ -678,9 +702,21 @@ Para después transformar los urls a imágenes con:
 
 ```{r}
 iris_con_urls %>% gt() %>% 
-  gt::text_transform(locations = cells_body(columns = vars(urls_lirios)),
-                     fn = function(x) {gt::web_image(x, height = 50)})
+  gt::text_transform(locations = cells_body(columns = c(urls_lirios)),
+                     fn = function(x) {gt::web_image(x, height = 30)})
 ```
+
+
+En [este post](https://bjnnowak.netlify.app/2021/10/04/r-beautiful-tables-with-gt-and-gtextras/) se muestra como incluir, no solo imágenes, sino también gráficos ggplot en una tabla hecha con `gt`. Para ello usa el paquete [`gtExtras`](https://jthomasmock.github.io/gtExtras/index.html). Por ejemplo está maravilla de tabla: 
+
+
+```{r , echo = FALSE, eval = TRUE, out.width = "80%"}
+knitr::include_graphics(here::here("imagenes", "tt_08_img_02_tabla-ganadores-tour.png"))
+```
+
+
+
+tt_08_img_02_tabla-ganadores-tour.png
 
 
 ---------------
@@ -746,7 +782,6 @@ reactable::reactable(iris)
 Pero se pueden hacer tablas tan fabulosas como [esta](https://glin.github.io/reactable/articles/twitter-followers/twitter-followers.html) o [esta](https://glin.github.io/reactable/articles/nba-box-score/nba-box-score.html) o [esta](https://glin.github.io/reactable/articles/womens-world-cup/womens-world-cup.html).
 
 
-
 <br>
 
 ---------------
@@ -775,7 +810,7 @@ rpivotTable(df, rows = "Gender", cols = c("Country"), width = "100%", height = "
 
 # 6. Tablas para modelos
 
-R es un lenguaje/entorno para hacer análisis estadísticos, así que muchas veces se han de presentar los resultados de estimación de algún modelo estadístico, PERO, los resultados de estimación de estos modelos, en general, no se almacenan en data.frames, sino en listas. ¿Es esto importante? Sí, si lo queremos es  presentar los resultados de estimación en una tabla. La razón consite en que los paquetes para tablas que hemos visto anteriormente (`gt`, `DT`, etc ...) solo generan tablas de resultados almacenados en data.frames, así que no los podremos usar, al menos directamente, para hacer tabls de resultados asociados a modelos estdísticos. Afortunadamente hay unos cuantos paquetes en R cuyo propósito es precisamente ese, presentar los resultados de estimación de algún modelo o técnica estadística como tablas.
+R es un lenguaje/entorno para hacer análisis estadísticos, así que muchas veces se han de presentar los resultados de estimación de algún modelo estadístico, PERO, los resultados de estimación de estos modelos, en general, no se almacenan en data.frames, sino en listas. ¿Es esto importante? Sí, si lo queremos es  presentar los resultados de estimación en una tabla. La razón consiste en que los paquetes para tablas que hemos visto anteriormente (`gt`, `DT`, etc ...) solo generan tablas de resultados almacenados en data.frames, así que no los podremos usar, al menos directamente, para hacer tablas de resultados asociados a modelos estadísticos. Afortunadamente hay unos cuantos paquetes en R cuyo propósito es precisamente ese, presentar los resultados de estimación de algún modelo o técnica estadística como tablas.
 
 Por ejemplo, vamos a estimar un modelo de regresión lineal. Utilizaremos estos datos:
 
@@ -999,6 +1034,8 @@ df %>% janitor::tabyl(Education, Country, Gender)
 - El paquete [`expss`](https://cran.r-project.org/web/packages/expss/vignettes/tables-with-labels.html) hace tablas similares a las de SPSS.
 
 - En este [post](https://appsilon.com/forget-about-excel-use-r-shiny-packages-instead/) hacen un repaso de paquetes que permiten crear tablas con características especiales como que sus valores sean editables por el usuario, que tengan formato condicionado a los valores de las tablas, que se puedan ordenar y filtrar sus valores etc ...
+
+- Un [post](https://blog.rstudio.com/2020/12/23/winners-of-the-2020-rstudio-table-contest/) con las tablas ganadoras del "2020 RStudio Table Contest".
 
 
 <br><br>

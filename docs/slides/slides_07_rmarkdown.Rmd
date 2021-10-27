@@ -341,7 +341,6 @@ background-size: 4%
 
 - Sí, los documentos `.Rmd` suelen tener un chunk inicial con las opciones por defecto para los siguientes chunks.
 
-<br>
 
 - Por ejemplo, el chunk inicial que suelo usar es parecido a este:
 
@@ -356,6 +355,19 @@ knitr::opts_chunk$set(echo = TRUE, eval = TRUE, message = FALSE, warning = FALSE
 options(scipen = 999) #- para quitar la notación científica
 ```
 ````  
+
+- Con [knitr v1.35](https://github.com/yihui/knitr/releases) se ha habilitado una nueva sintaxis para las opciones de los chunks:
+
+
+````
+```{r}`r ''`
+#| echo = FALSE, fig.width = 10,
+#| fig.cap = "This is a long caption."
+
+plot(cars)
+```
+````  
+
 
 ---
 background-image: url(imagenes/ss_00_new_logo_rmd.png)
@@ -464,6 +476,24 @@ background-size: 4%
 <br>
 
 - **Tablas**: por ejemplo `knitr::kable(df)`, o `gt::gt(df)`, o `DT::datatable(df)` y más. Si te interesa el tema de las tablas puedes visitar [esto](https://perezp44.github.io/intro-ds-20-21-web/tutoriales/tt_08_tablas-Rmarkdown.html) o [esto](https://rfortherestofus.com/2019/11/how-to-make-beautiful-tables-in-r/)
+
+
+
+---
+background-image: url(imagenes/1920px-Markdown-mark.svg.png)
+background-position: 99% 1%
+background-size: 4%
+
+##### tuneando tu informe .html
+
+- Puedes cambiar algunos aspectos de tu documento html. Puedes verlo [aquí](https://bookdown.org/yihui/rmarkdown/html-document.html#appearance-and-style.)
+
+- Con CSS se puede personalizar completamente el aspecto de los documentos html que se generan con Rmarkdown. Aunque no sepas CSS tienes una gran variedad de formatos predefinidos. Puedes ver un listado [aquí](https://www.datadreaming.org/post/r-markdown-theme-gallery/),  [aquí](https://github.com/gadenbuie/cleanrmd)o [aquí](https://github.com/juba/rmdformats).
+
+- El paquete [bslib](https://rstudio.github.io/bslib/) facilita el tuneado de los html.
+
+- El paquete [thematic](https://rstudio.github.io/thematic/) puede hacer que los gráficos reflejen el theme de RStudio que estas usando: sólo hay que hacer `thematic_on()`
+
 
 ---
 

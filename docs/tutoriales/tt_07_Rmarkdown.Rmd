@@ -306,7 +306,7 @@ Si en el .Rmd escribimos lo siguiente:
 cat(htmltools::includeText(here::here("./imagenes/rmarkdown_ejemplos/chunks/chunk_4")))
 ```
 
-NO se mostrará el código (`echo = FALSE`), pero SI se evaluará (`eval = FALSE`) y ,por lo tanto, SI se mostrarán los resultados en el documento final.
+NO se mostrará el código (`echo = FALSE`), pero SÍ se evaluará (`eval = FALSE`) y ,por lo tanto, SI se mostrarán los resultados en el documento final.
 
 <br>
 
@@ -334,6 +334,13 @@ cat(htmltools::includeText(here::here("./imagenes/rmarkdown_ejemplos/chunks/chun
 ```
 
 
+<br>
+
+Con la llegada de [`knitr v1.35`](https://github.com/yihui/knitr/releases) disponemos de una nueva forma de especificar las opciones de los chunks.
+
+```{r, echo = FALSE, fig.asp = 7/9}
+tweetrmd::tweet_embed("https://twitter.com/andrewheiss/status/1443570972703936523", theme = "light", align = "center", dnt = TRUE, maxwidth = 900)
+```
 
 
 <br>
@@ -610,6 +617,33 @@ klippy::klippy()  #- remotes::install_github("rlesur/klippy")
 ```
 
 
+## Aún más cosas (III)
+
+- Puedes cambiar algunos aspectos de tu documento html. Puedes verlo [aquí](https://bookdown.org/yihui/rmarkdown/html-document.html#appearance-and-style.)
+
+- Con CSS se puede personalizar completamente el aspecto de los documentos html que se generan con Rmarkdown. Aunque no sepas CSS tienes una gran variedad de formatos predefinidos. Puedes ver un listado [aquí](https://www.datadreaming.org/post/r-markdown-theme-gallery/),  [aquí](https://github.com/gadenbuie/cleanrmd)o [aquí](https://github.com/juba/rmdformats).
+
+- El paquete [bslib](https://rstudio.github.io/bslib/) facilita el tuneado de los html.
+
+- El paquete [thematic](https://rstudio.github.io/thematic/) puede hacer que los gráficos reflejen el theme de RStudio que estas usando: sólo hay que hacer `thematic_on()`
+
+- El paquete [checkdown](https://agricolamz.github.io/checkdown/) permite crear campos y casillas de verificación. Por ejemplo: 
+
+```
+¿Cuanto es 7 + 2?
+```
+
+
+```{r, results='asis', echo = FALSE}
+checkdown::check_question(answer =  9, right = "Acertaste!!!", wrong = "no way")
+```
+
+- Puedes incluir páginas web con `knitr::include_url()` , shiny's con `knitr::include_app ()`  e imágenes con `knitr::include_graphics()` 
+
+
+- El paquete [fontawesome](https://github.com/rstudio/fontawesome) permite incluir iconos de [**Font Awesome**](https://fontawesome.com/) en documentos RMarkdown. Por ejemplo con `` ` fontawesome::fa("r-project", fill = "steelblue")` ``   podemos insertar el icono de `r fontawesome::fa("r-project", fill = "steelblue")` 
+
+
 
 <br>
 
@@ -687,5 +721,11 @@ pkgs_instalados <- installed.packages(fields = c("Package", "Version")) %>%
 
 [R Markdown: The Definitive Guide](https://bookdown.org/yihui/rmarkdown/). Pues eso, la guía definitiva. Fantástica!!
 
+[R Markdown Cookbook](https://bookdown.org/yihui/rmarkdown-cookbook/). Nuevo libro, 2020, de Yihui Xie, Christophe Dervieux y Emily Riederer.
 
-[R Markdown Cookbook](https://bookdown.org/yihui/rmarkdown-cookbook/). Nuevo libro, 2020, de Yihui Xie, Christophe Dervieux y Emily Riederer
+
+[Officeverse](https://ardata-fr.github.io/officeverse/index.html). Un bookdown para facilitar la generación de documentos word desde Rmarkdown.
+
+
+[RMarkdown for Scientists](https://rmd4sci.njtierney.com/) de Nicholas Tierney.
+
