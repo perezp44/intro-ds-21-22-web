@@ -292,6 +292,29 @@ Too much for the first class? Igual sí. Al final veremos lo que podamos.
 
 ## 8ª clase (05-nov)
 
+<br>
+
+
+##### **`Homework`** (para hacer antes de ir a clase) 
+
+- Evidentemente, entregar a tiempo la `entrega_08`
+
+- Leer el tutorial sobre  `ggplot2`.
+
+- No estaría mal que empezáseis a pensar/perfilar vuestro trabajo en grupo
+
+
+<br>
+
+##### ¿Qué haremos en clase?
+
+- Corregir la `entrega_08`
+
+- Continuar y acabar con el tutorial 06 sobre `ggplot2` 
+
+- Ejemplos relacionados con visualización
+
+- Empezar con **Rmarkdown**. Veremos las ideas básicas para poder hacer informes reproducibles con Rmarkdown
 
 <br>
 
