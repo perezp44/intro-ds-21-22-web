@@ -325,6 +325,31 @@ Too much for the first class? Igual sí. Al final veremos lo que podamos.
 ## 9ª clase (12-nov)
 
 
+##### **`Homework`** (para hacer antes de ir a clase) 
+
+- Esta semana, como sabéis, tenéis que hacer la `entrega_09` para hacerla tendréis que repasar/estudiar `ggplot2`.
+
+- Tenéis que instalaros unos paquetes relacionados con Rmarkdown. Lo haremos con el paquete pacman. Para ello solo tenéis que correr las siguientes instrucciones: `pacman::p_install(bslib, thematic, shiny, rmdformats, flexdashboard, posterdown, vitae, tinytex)` y `pacman::p_install_gh(c("rstudio/pagedown", "yihui/rolldown"))`. Ya sabéis, desde sesión limpia de R. Una vez instalados los paquetes, corred la siguiente instrucción `tinytex::install_tinytex()` para instalaros una distrubución ligera de Latex.
+
+
+- Tenéis que empezar a pensar en los trabajos: el individual, pero sobre todo el **trabajo en equipo**.
+
+
+<br>
+
+##### ¿Qué haremos en clase?
+
+- Corregir la entrega_09.
+
+- "Empezar" con **Rmarkdown**. Veremos las ideas básicas (y no tan básicas) para poder hacer informes reproducibles con Rmarkdown
+
+- Os proporcionaré unas plantillas que puedan serviros para hacer vuestros trabajos.
+
+- Subiremos nuestros primeros "trabajos" a Github.
+
+
+
+
 <br>
 
 -----------------------
