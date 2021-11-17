@@ -360,6 +360,32 @@ Too much for the first class? Igual sí. Al final veremos lo que podamos.
 ## 10ª clase (19-nov)
 
 
+
+<br>
+
+##### **`Homework`** (para hacer antes de ir a clase) 
+
+- Enviarme, en un documento .html, generado a través de un .Rmd, un bosquejo de vuestro trabajo en grupo. Es importante que lo vayáis perfilando ... y haciendo.
+
+- Seguramente los tengáis ya instalados, pero por si acaso, instalaros los siguientes paquetes: `pacman::p_load(freqtables, janitor, sjmisc, flextable, formattable, flextable, kableExtra, gt, DT, reactable, stargazer, modelsummary, gtsummary, sjPlot, rpivotTable, webshot)`
+
+
+<br>
+
+##### ¿Qué haremos en clase?
+
+- Hablar de vuestros proyectos de trabajos
+
+- Seguir con RMD. Para ello probaremos otros formatos/plantillas.
+
+- Subiremos, esta vez sí, el bosquejo de vuestros trabajos a Github.
+
+- Tendremos una charla de un estudiante de hace dos años (Antonio Segovia). Antonio nos hablará sobre posibilidades de iniciación y perspectivas laborales  en el mundo de la Ciencia de Datos.
+
+- Veremos como crear tablas para documentos Rmd. Usaremos el `tutorial 09`
+
+
+
 <br>
 
 -----------------------
