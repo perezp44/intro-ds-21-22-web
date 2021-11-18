@@ -33,12 +33,57 @@ klippy::klippy(position = c("top", "right")) #- remotes::install_github("rlesur/
 
 ## Trabajos en equipo
 
-------------------
-
-Aquí irán los enlaces a vuestros trabajos en equipo.
-
 <br>
 
+- **Jesús Lloret Quero**, **Vicent Mompo Crespo** y **Francisco Martínez Caballero** presentaron el trabajo [Causas y consecuencias de la inflación sobre el crecimiento económico en el contexto mundial](https://fran2200.github.io/trabajo_BigData_equipo/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/fran2200/trabajo_BigData_equipo){target="_blank"}.  Las `slides` para la presentación están [aquí](https://fran2200.github.io/trabajo_BigData_slides/){target="_blank"}.
+
+<br> 
+
+
+- **Pau Piera Palacios**, **Mario García Zamora** y **Pau Piera Palacios** presentaron el trabajo [Sistema de Pensiones Español](https://paupiera23.github.io/trabajo_BigData_equipo/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/paupiera23/trabajo_BigData_equipo){target="_blank"}.  Las `slides` para la presentación están [aquí](https://paupiera23.github.io/trabajo_BigData_slides/){target="_blank"}.
+
+
+<br> 
+
+
+- **Aleixandra Blasco**, **Alba Ibañez** y **Vanesa Regueiro Raña** presentaron el trabajo [Sistema de Pensiones Español](https://vanesarr.github.io/trabajo_BigData_equipo/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/vanesarr/trabajo_BigData_equipo){target="_blank"}.  Las `slides` para la presentación están [aquí](https://vanesarr.github.io/trabajo_BigData_slides/){target="_blank"}.
+
+<br> 
+
+(abajo falta usuario Github)
+
+- **Teodoro D'Agostino**, **Jorge González** y **Aurora Lloret** presentaron el trabajo [Principales conclusiones de la piratería desde 1993 hasta nuestros días](https://vanesarr.github.io/trabajo_BigData_equipo/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/vanesarr/trabajo_BigData_equipo){target="_blank"}.  Las `slides` para la presentación están [aquí](https://vanesarr.github.io/trabajo_BigData_slides/){target="_blank"}.
+
+<br> 
+
+
+- **Carlos García Castilla**, **Alejandro García Segarra** y **Cayetano Fernando Romero Monteagudo** presentaron el trabajo [Alt +  Formula 1](https://cayetano108.github.io/trabajo_BigData_equipo/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/cayetano108/trabajo_BigData_equipo){target="_blank"}.  Las `slides` para la presentación están [aquí](https://cayetano108.github.io/trabajo_BigData_slides/){target="_blank"}.
+
+<br> 
+
+(abajo falta usuario Github)
+
+- **Galina Lopez Zinchuk**, **Fatima Makroud Saidi** y **Damian Perez Soler** presentaron el trabajo [Impacto medioambiental de la producción de alimentos](https://vanesarr.github.io/trabajo_BigData_equipo/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/vanesarr/trabajo_BigData_equipo){target="_blank"}.  Las `slides` para la presentación están [aquí](https://vanesarr.github.io/trabajo_BigData_slides/){target="_blank"}.
+
+<br> 
+
+
+
+- **Julio Gonzalez Miralles**, **Pedro Julián López Mejías** y **Lawrence Daniel Phillips Bates** presentaron el trabajo [¿Se vive bien en la Comunidad Valenciana](https://lorenzo1999.github.io/trabajo_BigData_equipo/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/lorenzo1999/trabajo_BigData_equipo){target="_blank"}.  Las `slides` para la presentación están [aquí](https://lorenzo1999.github.io/trabajo_BigData_slides/){target="_blank"}.
+
+<br> 
+
+(abajo falta ususario Github)
+
+- **Carolina Espí García**, **José Pineda Torres** y **Jialing Zhang** presentaron el trabajo [Evolución del precio del crudo](https://vanesarr.github.io/trabajo_BigData_equipo/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/vanesarr/trabajo_BigData_equipo){target="_blank"}.  Las `slides` para la presentación están [aquí](https://vanesarr.github.io/trabajo_BigData_slides/){target="_blank"}.
+
+<br> 
+
+(abajo falta usuario Github)
+
+- **Anna Chesa Llorens**, **Lorenzo Chirchirillo** y **Alicja Młynek** presentaron el trabajo [Análisis del ránking de Shangai de las mejores 100 universidades del mundo](https://vanesarr.github.io/trabajo_BigData_equipo/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/vanesarr/trabajo_BigData_equipo){target="_blank"}.  Las `slides` para la presentación están [aquí](https://vanesarr.github.io/trabajo_BigData_slides/){target="_blank"}.
+
+<br> 
 
 <br><br>
 
