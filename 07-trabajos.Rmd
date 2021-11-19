@@ -35,7 +35,7 @@ klippy::klippy(position = c("top", "right")) #- remotes::install_github("rlesur/
 
 <br>
 
-- **Jesús Lloret Quero**, **Vicent Mompo Crespo** y **Francisco Martínez Caballero** presentaron el trabajo [Causas y consecuencias de la inflación sobre el crecimiento económico en el contexto mundial](https://fran2200.github.io/trabajo_BigData_equipo/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/fran2200/trabajo_BigData_equipo){target="_blank"}.  Las `slides` para la presentación están [aquí](https://fran2200.github.io/trabajo_BigData_slides/){target="_blank"}.
+- **Jesús Lloret Querol**, **Vicent Mompo Crespo** y **Francisco Martínez Caballero** presentaron el trabajo [Causas y consecuencias de la inflación sobre el crecimiento económico en el contexto mundial](https://fran2200.github.io/trabajo_BigData_equipo/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/fran2200/trabajo_BigData_equipo){target="_blank"}.  Las `slides` para la presentación están [aquí](https://fran2200.github.io/trabajo_BigData_slides/){target="_blank"}.
 
 <br> 
 
@@ -84,6 +84,21 @@ klippy::klippy(position = c("top", "right")) #- remotes::install_github("rlesur/
 - **Anna Chesa Llorens**, **Lorenzo Chirchirillo** y **Alicja Młynek** presentaron el trabajo [Análisis del ránking de Shangai de las mejores 100 universidades del mundo](https://vanesarr.github.io/trabajo_BigData_equipo/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/vanesarr/trabajo_BigData_equipo){target="_blank"}.  Las `slides` para la presentación están [aquí](https://vanesarr.github.io/trabajo_BigData_slides/){target="_blank"}.
 
 <br> 
+
+(abajo falta usuario Github)
+
+- **Alejandro Calderero**, **Mario de Benito** y **Alejandro Perez** presentaron el trabajo [Análisis de criptomonedas, evolución y actualidad](https://vanesarr.github.io/trabajo_BigData_equipo/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/vanesarr/trabajo_BigData_equipo){target="_blank"}.  Las `slides` para la presentación están [aquí](https://vanesarr.github.io/trabajo_BigData_slides/){target="_blank"}.
+
+<br> 
+
+
+
+- **Alba Estela**, **Melanie Neufcour** y **Mireia Yangüez** presentaron el trabajo [TT YOUTUBE EN LOS DISTINTOS PAÍSES EN LOS
+ÚLTIMOS AÑOS](https://meneuf.github.io/trabajo_BigData_equipo/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/meneuf/trabajo_BigData_equipo){target="_blank"}.  Las `slides` para la presentación están [aquí](https://meneuf.github.io/trabajo_BigData_slides/){target="_blank"}.
+
+<br> 
+
+
 
 <br><br>
 
