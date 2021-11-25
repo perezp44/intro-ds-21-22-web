@@ -46,13 +46,12 @@ klippy::klippy(position = c("top", "right")) #- remotes::install_github("rlesur/
 <br> 
 
 
-- **Aleixandra Blasco**, **Alba Ibañez** y **Vanesa Regueiro Raña** presentaron el trabajo [Sistema de Pensiones Español](https://vanesarr.github.io/trabajo_BigData_equipo/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/vanesarr/trabajo_BigData_equipo){target="_blank"}.  Las `slides` para la presentación están [aquí](https://vanesarr.github.io/trabajo_BigData_slides/){target="_blank"}.
+- **Aleixandra Blasco**, **Alba Ibañez** y **Vanesa Regueiro Raña** presentaron el trabajo [Spotify en la actualidad](https://vanesarr.github.io/trabajo_BigData_equipo/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/vanesarr/trabajo_BigData_equipo){target="_blank"}.  Las `slides` para la presentación están [aquí](https://vanesarr.github.io/trabajo_BigData_slides/){target="_blank"}.
 
 <br> 
 
-(abajo falta usuario Github)
 
-- **Teodoro D'Agostino**, **Jorge González** y **Aurora Lloret** presentaron el trabajo [Principales conclusiones de la piratería desde 1993 hasta nuestros días](https://vanesarr.github.io/trabajo_BigData_equipo/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/vanesarr/trabajo_BigData_equipo){target="_blank"}.  Las `slides` para la presentación están [aquí](https://vanesarr.github.io/trabajo_BigData_slides/){target="_blank"}.
+- **Teodoro D'Agostino**, **Jorge González** y **Aurora Lloret** presentaron el trabajo [Principales conclusiones de la piratería desde 1993 hasta nuestros días](https://joorge0603.github.io/trabajo_BigData_equipo/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/joorge0603/trabajo_BigData_equipo){target="_blank"}.  Las `slides` para la presentación están [aquí](https://joorge0603.github.io/trabajo_BigData_slides/){target="_blank"}.
 
 <br> 
 
@@ -61,9 +60,8 @@ klippy::klippy(position = c("top", "right")) #- remotes::install_github("rlesur/
 
 <br> 
 
-(abajo falta usuario Github)
 
-- **Galina Lopez Zinchuk**, **Fatima Makroud Saidi** y **Damian Perez Soler** presentaron el trabajo [Impacto medioambiental de la producción de alimentos](https://vanesarr.github.io/trabajo_BigData_equipo/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/vanesarr/trabajo_BigData_equipo){target="_blank"}.  Las `slides` para la presentación están [aquí](https://vanesarr.github.io/trabajo_BigData_slides/){target="_blank"}.
+- **Galina Lopez Zinchuk**, **Fatima Makroud Saidi** y **Damian Pérez Soler** presentaron el trabajo [Impacto medioambiental de la producción de alimentos](https://damianps14.github.io/trabajo_BigData_equipo/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/damianps14/trabajo_BigData_equipo){target="_blank"}.  Las `slides` para la presentación están [aquí](https://damianps14.github.io/trabajo_BigData_slides/){target="_blank"}.
 
 <br> 
 
@@ -73,28 +71,23 @@ klippy::klippy(position = c("top", "right")) #- remotes::install_github("rlesur/
 
 <br> 
 
-(abajo falta ususario Github)
 
-- **Carolina Espí García**, **José Pineda Torres** y **Jialing Zhang** presentaron el trabajo [Evolución del precio del crudo](https://vanesarr.github.io/trabajo_BigData_equipo/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/vanesarr/trabajo_BigData_equipo){target="_blank"}.  Las `slides` para la presentación están [aquí](https://vanesarr.github.io/trabajo_BigData_slides/){target="_blank"}.
-
-<br> 
-
-(abajo falta usuario Github)
-
-- **Anna Chesa Llorens**, **Lorenzo Chirchirillo** y **Alicja Młynek** presentaron el trabajo [Análisis del ránking de Shangai de las mejores 100 universidades del mundo](https://vanesarr.github.io/trabajo_BigData_equipo/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/vanesarr/trabajo_BigData_equipo){target="_blank"}.  Las `slides` para la presentación están [aquí](https://vanesarr.github.io/trabajo_BigData_slides/){target="_blank"}.
-
-<br> 
-
-(abajo falta usuario Github)
-
-- **Alejandro Calderero**, **Mario de Benito** y **Alejandro Perez** presentaron el trabajo [Análisis de criptomonedas, evolución y actualidad](https://vanesarr.github.io/trabajo_BigData_equipo/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/vanesarr/trabajo_BigData_equipo){target="_blank"}.  Las `slides` para la presentación están [aquí](https://vanesarr.github.io/trabajo_BigData_slides/){target="_blank"}.
+- **Carolina Espí García**, **José Pineda Torres** y **Jialing Zhang** presentaron el trabajo [Evolución del precio del crudo](https://Pitojo.github.io/trabajo_BigData_equipo/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/Pitojo/trabajo_BigData_equipo){target="_blank"}.  Las `slides` para la presentación están [aquí](https://Pitojo.github.io/trabajo_BigData_slides/){target="_blank"}.
 
 <br> 
 
 
+- **Anna Chesa Llorens**, **Lorenzo Chirchirillo** y **Alicja Młynek** presentaron el trabajo [Análisis del ránking de Shangai de las mejores 100 universidades del mundo](https://AlicjaMl.github.io/trabajo_BigData_equipo/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/AlicjaMl/trabajo_BigData_equipo){target="_blank"}.  Las `slides` para la presentación están [aquí](https://AlicjaMl.github.io/trabajo_BigData_slides/){target="_blank"}.
 
-- **Alba Estela**, **Melanie Neufcour** y **Mireia Yangüez** presentaron el trabajo [TT YOUTUBE EN LOS DISTINTOS PAÍSES EN LOS
-ÚLTIMOS AÑOS](https://meneuf.github.io/trabajo_BigData_equipo/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/meneuf/trabajo_BigData_equipo){target="_blank"}.  Las `slides` para la presentación están [aquí](https://meneuf.github.io/trabajo_BigData_slides/){target="_blank"}.
+<br> 
+
+
+- **Alejandro Calderero**, **Mario de Benito** y **Alejandro Pérez** presentaron el trabajo [Análisis de criptomonedas, evolución y actualidad](https://alejandrocp00.github.io/trabajo_BigData_equipo/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/alejandrocp00/trabajo_BigData_equipo){target="_blank"}.  Las `slides` para la presentación están [aquí](https://alejandrocp00.github.io/trabajo_BigData_slides/){target="_blank"}.
+
+<br> 
+
+
+- **Alba Estela**, **Melanie Neufcour** y **Mireia Yangüez** presentaron el trabajo [TT Youtube en los distintos países en los últimos años](https://meneuf.github.io/trabajo_BigData_equipo/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/meneuf/trabajo_BigData_equipo){target="_blank"}.  Las `slides` para la presentación están [aquí](https://meneuf.github.io/trabajo_BigData_slides/){target="_blank"}.
 
 <br> 
 

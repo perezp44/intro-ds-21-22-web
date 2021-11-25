@@ -56,6 +56,83 @@
     </style>
 
 
+<style type="text/css">
+  code {
+    white-space: pre;
+  }
+  .sourceCode {
+    overflow: visible;
+  }
+</style>
+<style type="text/css" data-origin="pandoc">
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { font-weight: bold; } /* Alert */
+code span.an { font-style: italic; } /* Annotation */
+code span.cf { font-weight: bold; } /* ControlFlow */
+code span.co { font-style: italic; } /* Comment */
+code span.cv { font-style: italic; } /* CommentVar */
+code span.do { font-style: italic; } /* Documentation */
+code span.dt { text-decoration: underline; } /* DataType */
+code span.er { font-weight: bold; } /* Error */
+code span.in { font-style: italic; } /* Information */
+code span.kw { font-weight: bold; } /* Keyword */
+code span.pp { font-weight: bold; } /* Preprocessor */
+code span.wa { font-style: italic; } /* Warning */
+
+</style>
+<script>
+// apply pandoc div.sourceCode style to pre.sourceCode instead
+(function() {
+  var sheets = document.styleSheets;
+  for (var i = 0; i < sheets.length; i++) {
+    if (sheets[i].ownerNode.dataset["origin"] !== "pandoc") continue;
+    try { var rules = sheets[i].cssRules; } catch (e) { continue; }
+    for (var j = 0; j < rules.length; j++) {
+      var rule = rules[j];
+      // check if there is a div.sourceCode rule
+      if (rule.type !== rule.STYLE_RULE || rule.selectorText !== "div.sourceCode") continue;
+      var style = rule.style.cssText;
+      // check if color or background-color is set
+      if (rule.style.color === '' && rule.style.backgroundColor === '') continue;
+      // replace div.sourceCode by a pre.sourceCode rule
+      sheets[i].deleteRule(j);
+      sheets[i].insertRule('pre.sourceCode{' + style + '}', j);
+    }
+  }
+})();
+</script>
 
 
 
@@ -656,14 +733,50 @@ RECUERDA que, antes de venir a clase, <strong>TENÉIS que hacer las tareas previ
 <div id="ª-clase-26-nov" class="section level2">
 <h2>11ª clase (26-nov)</h2>
 <p><br></p>
+<div id="homework-para-hacer-antes-de-ir-a-clase-8" class="section level5">
+<h5><strong><code>Homework</code></strong> (para hacer antes de ir a clase)</h5>
+<ul>
+<li><p>Como sabéis ya no hay homework, buenio, sí, el homework es tratar de asentar lo que hemos visto durante el curso, para eso tenéis que ir haciendo los trabajos en grupo. Ánimo con ellos</p></li>
+<li><p>Seguramente los tengáis ya instalados, pero por si acaso, instalaros los siguientes paquetes:</p></li>
+</ul>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>pacman<span class="sc">::</span><span class="fu">p_load</span>(knitr, here, tidyverse, patchwork, ggrepel)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>pacman<span class="sc">::</span><span class="fu">p_load</span>(sf, rnaturalearth, rnaturalearthdata, ggspatial, mapview, leafem, leaflet)</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>pacman<span class="sc">::</span><span class="fu">p_load</span>(tmap, tidygeocoder, tmaptools)</span></code></pre></div>
+<p><br></p>
+</div>
+<div id="qué-haremos-en-clase-6" class="section level5">
+<h5>¿Qué haremos en clase?</h5>
+<ul>
+<li><p>Hablar (otra vez) de vuestros trabajos.</p></li>
+<li><p>Seguir con el tema de las tablas. para ello usaremos el <code>Tutorial 08: Tablas con Rmarkdown</code> y el <code>ej_222_tablas-con-gt.R</code></p></li>
+<li><p>Empezar con mapas: a ver si le damos un buen bocado al <code>Tutorial 09: Introducción a GIS con R</code>.</p></li>
+<li><p>Ejemplos de mapas: <code>ej_102_eurostat-easy.R</code> y <code>ej_223_mapa_crec-pob-muni.R</code>.</p></li>
+</ul>
+<p><br></p>
 <hr />
 <p><br></p>
+</div>
 </div>
 <div id="ª-clase-03-dic" class="section level2">
 <h2>12ª clase (03-dic)</h2>
 <p><br></p>
+<div id="homework-para-hacer-antes-de-ir-a-clase-9" class="section level5">
+<h5><strong><code>Homework</code></strong> (para hacer antes de ir a clase)</h5>
+<ul>
+<li>Seguir aprendiendo R y currando en vuestros trabajos. 🔨 💪 🎈</li>
+</ul>
+<p><br></p>
+</div>
+<div id="qué-haremos-en-clase-7" class="section level5">
+<h5>¿Qué haremos en clase?</h5>
+<ul>
+<li><p>Veremos … según lo que veamos en la clase 11.</p></li>
+<li><p>Después del descanso, sobre las 17:45, tendremos charla de <a href="https://mediadoresdeseguroscv.com/equipo-actuarios-union-alcoyana-galardonados-iv-premio-actuarial-scor-espana-portugal/">Jorge Segura</a>, actuario jefe de Unión Alcoyana Seguros.</p></li>
+</ul>
+<p><br></p>
 <hr />
 <p><br></p>
+</div>
 </div>
 <div id="ª-clase-10-dic" class="section level2">
 <h2>13ª clase (10-dic)</h2>
@@ -674,7 +787,7 @@ RECUERDA que, antes de venir a clase, <strong>TENÉIS que hacer las tareas previ
 <div id="ª-clase-17-dic" class="section level2">
 <h2>14ª clase (17-dic)</h2>
 <p><br></p>
-<div id="homework-para-hacer-antes-de-ir-a-clase-8" class="section level5">
+<div id="homework-para-hacer-antes-de-ir-a-clase-10" class="section level5">
 <h5><strong><code>Homework</code></strong> (para hacer antes de ir a clase)</h5>
 <ul>
 <li><p>Acabar y dejar chulos-chulos los trabajos en equipo. No os olvidéis de subir la última versión a Github</p></li>
@@ -682,17 +795,26 @@ RECUERDA que, antes de venir a clase, <strong>TENÉIS que hacer las tareas previ
 </ul>
 <p><br></p>
 </div>
-<div id="qué-haremos-en-clase-6" class="section level5">
+<div id="qué-haremos-en-clase-8" class="section level5">
 <h5>¿Qué haremos en clase?</h5>
 <ul>
 <li><p>Yo, relajarme y escuchar.</p></li>
 <li><p>Vosotros, 👩‍🎓, sorprenderme con vuestras fantásticas presentaciones. Bueno, no pasa nada si alguna sale tan solo regular. El 🙌 👏 👏 lo vais a tener igual.</p></li>
 <li><p>Ánimo con los trabajos y presentación!!!</p></li>
 </ul>
+<p><br></p>
+<hr />
+<p><br></p>
+</div>
+</div>
+<div id="examen-final" class="section level2">
+<h2>Examen final</h2>
+<ul>
+<li>El examen final será el <strong>10 de enero</strong> (de 2022) a las <strong>15:30 en el aula S308</strong>.</li>
+</ul>
 <p><br><br></p>
 <div class="tocify-extend-page" data-unique="tocify-extend-page" style="height: 0;">
 
-</div>
 </div>
 </div>
 

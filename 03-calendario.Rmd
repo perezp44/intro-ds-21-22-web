@@ -359,8 +359,6 @@ Too much for the first class? Igual sí. Al final veremos lo que podamos.
 
 ## 10ª clase (19-nov)
 
-
-
 <br>
 
 ##### **`Homework`** (para hacer antes de ir a clase) 
@@ -394,6 +392,32 @@ Too much for the first class? Igual sí. Al final veremos lo que podamos.
 
 ## 11ª clase (26-nov)
 
+<br>
+
+##### **`Homework`** (para hacer antes de ir a clase) 
+
+- Como sabéis ya no hay homework, buenio, sí, el homework es tratar de asentar lo que hemos visto durante el curso, para eso tenéis que ir haciendo los trabajos en grupo. Ánimo con ellos
+
+- Seguramente los tengáis ya instalados, pero por si acaso, instalaros los siguientes paquetes: 
+
+```{r, eval = FALSE}
+pacman::p_load(knitr, here, tidyverse, patchwork, ggrepel)
+pacman::p_load(sf, rnaturalearth, rnaturalearthdata, ggspatial, mapview, leafem, leaflet)
+pacman::p_load(tmap, tidygeocoder, tmaptools)
+```
+
+<br>
+
+##### ¿Qué haremos en clase?
+
+- Hablar (otra vez) de vuestros trabajos.
+
+- Seguir con el tema de las tablas. para ello usaremos el `Tutorial 08: Tablas con Rmarkdown` y el `ej_222_tablas-con-gt.R`
+
+- Empezar con mapas: a ver si le damos un buen bocado al `Tutorial 09: Introducción a GIS con R`.
+
+- Ejemplos de mapas: `ej_102_eurostat-easy.R` y `ej_223_mapa_crec-pob-muni.R`.
+
 
 <br>
 
@@ -403,12 +427,26 @@ Too much for the first class? Igual sí. Al final veremos lo que podamos.
 
 ## 12ª clase (03-dic)
 
+<br>
+
+##### **`Homework`** (para hacer antes de ir a clase) 
+
+- Seguir aprendiendo R y currando en vuestros trabajos. 🔨 💪 🎈 
+
+<br>
+
+##### ¿Qué haremos en clase?
+
+- Veremos ... según lo que veamos en la clase 11.
+
+- Después del descanso, sobre las 17:45, tendremos charla de [Jorge Segura](https://mediadoresdeseguroscv.com/equipo-actuarios-union-alcoyana-galardonados-iv-premio-actuarial-scor-espana-portugal/), actuario jefe de Unión Alcoyana Seguros.
 
 <br>
 
 -----------------------
 
 <br>
+
 
 ## 13ª clase (10-dic)
 
@@ -440,6 +478,18 @@ Too much for the first class? Igual sí. Al final veremos lo que podamos.
 
 - Ánimo con los trabajos y presentación!!!
 
+
+
+<br>
+
+-----------------------
+
+<br>
+
+
+## Examen final
+
+- El examen final será el **10 de enero** (de 2022) a las **15:30 en el aula S308**.
 
 
 
