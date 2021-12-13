@@ -77,7 +77,7 @@ klippy::klippy(position = c("top", "right")) #- remotes::install_github("rlesur/
 <br> 
 
 
-- **Anna Chesa Llorens**, **Lorenzo Chirchirillo** y **Alicja Młynek** presentaron el trabajo [Análisis del ránking de Shangai de las mejores 100 universidades del mundo](https://AlicjaMl.github.io/trabajo_BigData_equipo/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/AlicjaMl/trabajo_BigData_equipo){target="_blank"}.  Las `slides` para la presentación están [aquí](https://AlicjaMl.github.io/trabajo_BigData_slides/){target="_blank"}.
+- **Anna Chesa Llorens**, **Lorenzo Chirchirillo** y **Alicja Młynek** presentaron el trabajo [Análisis de las mejores 100 universidades del mundo](https://AlicjaMl.github.io/trabajo_BigData_equipo/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/AlicjaMl/trabajo_BigData_equipo){target="_blank"}.  Las `slides` para la presentación están [aquí](https://AlicjaMl.github.io/trabajo_BigData_slides/){target="_blank"}.
 
 <br> 
 
