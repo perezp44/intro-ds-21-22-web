@@ -46,7 +46,7 @@ klippy::klippy(position = c("top", "right")) #- remotes::install_github("rlesur/
 <br> 
 
 
-- **Aleixandra Blasco**, **Alba Ibañez** y **Vanesa Regueiro Raña** presentaron el trabajo [Spotify en la actualidad](https://vanesarr.github.io/trabajo_BigData_equipo/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/vanesarr/trabajo_BigData_equipo){target="_blank"}.  Las `slides` para la presentación están [aquí](https://vanesarr.github.io/trabajo_BigData_slides/){target="_blank"}.
+- **Aleixandra Blasco**, **Alba Ibañez** y **Vanesa Regueiro Raña** presentaron el trabajo [Spotify en la actualidad y su espíritu navideño](https://vanesarr.github.io/trabajo_BigData_equipo/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/vanesarr/trabajo_BigData_equipo){target="_blank"}.  Las `slides` para la presentación están [aquí](https://vanesarr.github.io/trabajo_BigData_slides/){target="_blank"}.
 
 <br> 
 
