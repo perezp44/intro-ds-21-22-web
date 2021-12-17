@@ -61,7 +61,7 @@ klippy::klippy(position = c("top", "right")) #- remotes::install_github("rlesur/
 <br> 
 
 
-- **Galina Lopez Zinchuk**, **Fatima Makroud Saidi** y **Damian Pérez Soler** presentaron el trabajo [Impacto medioambiental de la producción de alimentos](https://damianps14.github.io/trabajo_BigData_equipo/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/damianps14/trabajo_BigData_equipo){target="_blank"}.  Las `slides` para la presentación están [aquí](https://damianps14.github.io/trabajo_BigData_slides/){target="_blank"}.
+- **Galina Lopez Zinchuk**, **Fatima Makroud Saidi** y **Damian Pérez Soler** presentaron el trabajo [Análisis del impacto medioambiental de la producción agrícola en Europa](https://damianps14.github.io/trabajo_BigData_equipo/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/damianps14/trabajo_BigData_equipo){target="_blank"}.  Las `slides` para la presentación están [aquí](https://damianps14.github.io/trabajo_BigData_slides/){target="_blank"}.
 
 <br> 
 
