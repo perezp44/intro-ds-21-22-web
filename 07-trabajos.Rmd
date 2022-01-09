@@ -117,11 +117,11 @@ El repo está [aquí](https://github.com/cayetano108/trabajo_BigData){target="_b
 - **Teodoro D'Agostino García** presentó el trabajo [Los puentes sobre el Danubio](https://teodgstno.github.io/trabajo_BigData/){target="_blank"}.
 El repo está [aquí](https://github.com/teodgstno/trabajo_BigData){target="_blank"}.
 
-- **Carlos García Castilla** presentó el trabajo [Temazos del 2021](https://garcas8.github.io/trabajo_BigData/){target="_blank"}. 
-El repo está 
-[aquí](https://github.com/garcas8/trabajo_BigData){target="_blank"}.
+- **Carlos	García Castilla** presentó el trabajo [LA BANDA SONORA DEL 2021](https://garcas8.github.io/trabajo_BigData/){target="_blank"}. 
+El repo está [aquí](https://github.com/garcas8/trabajo_BigData){target="_blank"}.
+ 
 
-- **Alba Estela García** presentó el trabajo [TOP PELICULAS](https://albaestela14.github.io/trabajo_BigData/){target="_blank"}.
+ - **Alba Estela García** presentó el trabajo [TOP PELICULAS](https://albaestela14.github.io/trabajo_BigData/){target="_blank"}.
 El repo está
 [aquí](https://github.com/albaestela14/trabajo_BigData){target="_blank"}.
 
@@ -179,15 +179,18 @@ El repo está [aquí](https://github.com/Rucamcam/trabajo_BigData){target="_blan
 - **José Pineda Torres** presentó el trabajo [Calp en la Marina Alta](https://pitojo.github.io/trabajo_BigData/){target="_blank"}. 
 El repo está [aquí](https://github.com/pitojo/trabajo_BigData){target="_blank"}.
 
+- **Mireia Yangüez Oliva** presentó el trabajo [Análisis económico austríaco](https://mireiayanguez.github.io/trabajo_BigData/){target="_blank"}. 
+El repo está [aquí](https://github.com/mireiayanguez/trabajo_BigData){target="_blank"}.
 
+- **Damián Pérez Soler** presentó el trabajo [Índice de libertad económica](https://damianps14.github.io/trabajo_BigData/){target="_blank"}. 
+El repo está [aquí](https://github.com/damianps14/trabajo_BigData){target="_blank"}.
 
-- **Carlos	García Castilla** presentó el trabajo [LA BANDA SONORA DEL 2021](https://garcas8.github.io/trabajo_BigData/){target="_blank"}. 
-El repo está [aquí](https://github.com/garcas8/trabajo_BigData){target="_blank"}.
- 
+- **Alejandro Calderero Pierna** presentó el trabajo [Fútbol: La liga](https://alejandrocp00.github.io/trabajo_BigData/){target="_blank"}. 
+El repo está [aquí](https://github.com/alejandrocp00/trabajo_BigData){target="_blank"}
 
- 
+- **Lawrence D. Phillips** presentó el trabajo [La epidemia de los opioides en Estados Unidos](https://lorenzo1999.github.io/trabajo_BigData/){target="_blank"}.
+El repo está [aquí](https://github.com/lorenzo1999/trabajo_BigData){target="_blank"}.
 
- 
 
 <br><br>
 
