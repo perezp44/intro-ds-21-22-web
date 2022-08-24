@@ -13,10 +13,10 @@
 
 <title>index.knit</title>
 
-<script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<link href="site_libs/bootstrap-3.3.5/css/united.min.css" rel="stylesheet" />
+<link href="site_libs/bootstrap-3.3.5/css/yeti.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
@@ -57,6 +57,7 @@
 
 
 
+
 <link rel="stylesheet" href="assets/styles_pjp.css" type="text/css" />
 
 
@@ -81,6 +82,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -233,7 +237,7 @@ $(document).ready(function () {
 <div class="navbar navbar-inverse  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -309,14 +313,40 @@ $(document).ready(function () {
 
 
 <p><br><br></p>
-<div id="programación-y-manejo-de-datos-con-r-2021-22" class="section level2">
+<div id="programación-y-manejo-de-datos-con-r-2021-22"
+class="section level2">
 <h2>Programación y manejo de datos con R (2021-22)</h2>
 <hr />
-<p>Bienvenidos a la web de la asignatura <strong><code>Programación y manejo de datos en la era del Big Data</code></strong>, que se impartirá durante el curso académico 2021-22 en el <a href="https://www.uv.es/uvweb/universidad/es/estudios-grado/oferta-grados/oferta-grados/grado-economia-1285846094474/Titulacio.html?id=1285847455792" target="_blank">Grado de Economía</a> de la Universidad de Valencia. Para crear está web se utiliza <a href="https://github.com/perezp44/intro-ds-21-22-web" target="_blank">este repositorio</a> alojado en Github.</p>
-<p>La asignatura se imparte en el primer semestre del cuarto curso del Grado en Economía. Es una asignatura optativa, código 36494, con una carga lectiva total de 6 ECTS. La asignatura es una <strong>introducción a la ciencia de datos</strong>: pretende iniciar a los estudiantes en este campo presentando una panorámica de tópicos, y exponiéndoles, quizás por primera vez en la carrera, a la programación.</p>
-<p>De momento, 1 de septiembre, <strong>está previsto que las clases se desarrollen de manera presencial</strong>, espero que sea así durante todo el curso.</p>
-<p>Incluso aunque las clases puedan desarrollarse en el aula, va a seguir siendo un curso extraño: al ser una asignatura optativa no seremos muchos, 34, pero llevaremos mascarillas y no podremos interactuar/acercarnos. Esto condicionará la forma de impartir y recibir las clases, así que <strong>necesitaré vuestra ayuda!!!</strong> Siempre se necesita la ayuda de los estudiantes para que un curso funcione, pero en estas condiciones aún más. Intentaré/intentaremos aprender lo máximo posible sobre R y Ciencia de Datos a pesar de las condiciones.</p>
-<p>En la web encontrarás información acerca del desarrollo del curso, así como la mayoría de los materiales que se usarán en él. Para obtener más información acerca del desarrollo del curso, por favor visita la sección <a href="01-guia-del-curso.html"><code>Guía del curso</code></a> de esta misma página web.</p>
+<p>Bienvenidos a la web de la asignatura
+<strong><code>Programación y manejo de datos en la era del Big Data</code></strong>,
+que se impartirá durante el curso académico 2021-22 en el <a
+href="https://www.uv.es/uvweb/universidad/es/estudios-grado/oferta-grados/oferta-grados/grado-economia-1285846094474/Titulacio.html?id=1285847455792"
+target="_blank">Grado de Economía</a> de la Universidad de Valencia.
+Para crear está web se utiliza <a
+href="https://github.com/perezp44/intro-ds-21-22-web"
+target="_blank">este repositorio</a> alojado en Github.</p>
+<p>La asignatura se imparte en el primer semestre del cuarto curso del
+Grado en Economía. Es una asignatura optativa, código 36494, con una
+carga lectiva total de 6 ECTS. La asignatura es una <strong>introducción
+a la ciencia de datos</strong>: pretende iniciar a los estudiantes en
+este campo presentando una panorámica de tópicos, y exponiéndoles,
+quizás por primera vez en la carrera, a la programación.</p>
+<p>De momento, 1 de septiembre, <strong>está previsto que las clases se
+desarrollen de manera presencial</strong>, espero que sea así durante
+todo el curso.</p>
+<p>Incluso aunque las clases puedan desarrollarse en el aula, va a
+seguir siendo un curso extraño: al ser una asignatura optativa no
+seremos muchos, 34, pero llevaremos mascarillas y no podremos
+interactuar/acercarnos. Esto condicionará la forma de impartir y recibir
+las clases, así que <strong>necesitaré vuestra ayuda!!!</strong> Siempre
+se necesita la ayuda de los estudiantes para que un curso funcione, pero
+en estas condiciones aún más. Intentaré/intentaremos aprender lo máximo
+posible sobre R y Ciencia de Datos a pesar de las condiciones.</p>
+<p>En la web encontrarás información acerca del desarrollo del curso,
+así como la mayoría de los materiales que se usarán en él. Para obtener
+más información acerca del desarrollo del curso, por favor visita la
+sección <a href="01-guia-del-curso.html"><code>Guía del curso</code></a>
+de esta misma página web.</p>
 <p><br></p>
 <div class="blue">
 <center>
@@ -329,7 +359,8 @@ lee la <a href="01-guia-del-curso.html"><code>Guía del curso</code></a>
 <p><br></p>
 <p>– Pedro J. Pérez</p>
 <p><br><br></p>
-<div class="tocify-extend-page" data-unique="tocify-extend-page" style="height: 0;">
+<div class="tocify-extend-page" data-unique="tocify-extend-page"
+style="height: 0;">
 
 </div>
 </div>

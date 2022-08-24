@@ -29,8 +29,8 @@ navbar:
 output_dir: "docs"
 output:
   html_document:
-    theme: united          #- verde: flatly
-    highlight: monochrome  #- pygments  textmate
+    theme: yeti       #- verde: flatly  #- original: united #- lumen
+    highlight: monochrome  #- pygments  textmate  #- original: monochrome
     includes:
       after_body: assets/footer.html
       in_header: ["google-analytics.html", "favicon.html"]

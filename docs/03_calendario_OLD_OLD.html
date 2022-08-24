@@ -13,10 +13,10 @@
 
 <title>03_calendario_OLD_OLD.knit</title>
 
-<script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<link href="site_libs/bootstrap-3.3.5/css/united.min.css" rel="stylesheet" />
+<link href="site_libs/bootstrap-3.3.5/css/yeti.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
@@ -60,6 +60,7 @@
 
 
 
+
 <style type = "text/css">
 .main-container {
   max-width: 940px;
@@ -80,6 +81,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -232,7 +236,7 @@ $(document).ready(function () {
 <div class="navbar navbar-inverse  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -310,21 +314,32 @@ $(document).ready(function () {
 <div id="ª-clase-20-nov" class="section level2">
 <h2>9ª clase (20-nov)</h2>
 <p><br></p>
-<div id="homework-para-hacer-antes-de-ir-a-clase" class="section level5">
-<h5><strong><code>Homework</code></strong> (para hacer antes de ir a clase)</h5>
+<div id="homework-para-hacer-antes-de-ir-a-clase"
+class="section level5">
+<h5><strong><code>Homework</code></strong> (para hacer antes de ir a
+clase)</h5>
 <ul>
-<li><p>Empezar a aprender a escribir en <code>Rmarkdown</code>, para eso tienes que entregar el miércoles 18 de noviembre la <code>tarea_07</code> de la que os he informado por e-mail.</p></li>
-<li><p>Decidir, si no los has hecho ya, el tema de tu trabajo individual; precisamente de esto me tienes que informar mientras haces la <code>tarea-07</code>.</p></li>
+<li><p>Empezar a aprender a escribir en <code>Rmarkdown</code>, para eso
+tienes que entregar el miércoles 18 de noviembre la
+<code>tarea_07</code> de la que os he informado por e-mail.</p></li>
+<li><p>Decidir, si no los has hecho ya, el tema de tu trabajo
+individual; precisamente de esto me tienes que informar mientras haces
+la <code>tarea-07</code>.</p></li>
 </ul>
 <p><br></p>
 </div>
 <div id="qué-haremos-en-clase" class="section level5">
 <h5>¿Qué haremos en clase?</h5>
 <ul>
-<li><p>“Corregir” la tarea_07; en realidad ver algunos errores que no hay que cometer.</p></li>
-<li><p>Si puedo leer la tarea_07, contaros un poco los temas sobre los que están trabajando tus compañeros de curso.</p></li>
-<li><p>Trabajar un poco más con Rmarkdown: posiblemente usar Rmarkdown para hacer informes parametrizados y ver algún formato más de documentos Rmd.</p></li>
-<li><p>Explicar como hacer tablas para documentos <code>.Rmd</code></p></li>
+<li><p>“Corregir” la tarea_07; en realidad ver algunos errores que no
+hay que cometer.</p></li>
+<li><p>Si puedo leer la tarea_07, contaros un poco los temas sobre los
+que están trabajando tus compañeros de curso.</p></li>
+<li><p>Trabajar un poco más con Rmarkdown: posiblemente usar Rmarkdown
+para hacer informes parametrizados y ver algún formato más de documentos
+Rmd.</p></li>
+<li><p>Explicar como hacer tablas para documentos
+<code>.Rmd</code></p></li>
 <li><p>Echar algo de bronca, ya se me ocurrirá algo!!</p></li>
 </ul>
 <p><br></p>
@@ -335,10 +350,13 @@ $(document).ready(function () {
 <div id="ª-clase-27-nov" class="section level2">
 <h2>10ª clase (27-nov)</h2>
 <p><br></p>
-<div id="homework-para-hacer-antes-de-ir-a-clase-1" class="section level5">
-<h5><strong><code>Homework</code></strong> (para hacer antes de ir a clase)</h5>
+<div id="homework-para-hacer-antes-de-ir-a-clase-1"
+class="section level5">
+<h5><strong><code>Homework</code></strong> (para hacer antes de ir a
+clase)</h5>
 <ul>
-<li>Os he mandado por mail la <code>tarea-08</code>, se trata de practicar un poco más con ggplot2 y hacer vuestros primeros mapas.</li>
+<li>Os he mandado por mail la <code>tarea-08</code>, se trata de
+practicar un poco más con ggplot2 y hacer vuestros primeros mapas.</li>
 </ul>
 <p><br></p>
 </div>
@@ -346,8 +364,11 @@ $(document).ready(function () {
 <h5>¿Qué haremos en clase?</h5>
 <ul>
 <li><p>Corregir la <code>tarea_08</code>.</p></li>
-<li><p>Mapas, mapas y más mapas; bueno en realidad vamos a usar R para hacer una introducción a GIS, Geographic Information Systems o, Sistemas de Información Geográfica (SIG).</p></li>
-<li><p>Bronca?? nah!!, todos los nombres de los ficheros de entregas estarán perfectos!!!</p></li>
+<li><p>Mapas, mapas y más mapas; bueno en realidad vamos a usar R para
+hacer una introducción a GIS, Geographic Information Systems o, Sistemas
+de Información Geográfica (SIG).</p></li>
+<li><p>Bronca?? nah!!, todos los nombres de los ficheros de entregas
+estarán perfectos!!!</p></li>
 </ul>
 <p><br></p>
 <hr />
@@ -357,21 +378,30 @@ $(document).ready(function () {
 <div id="ª-clase-04-dic" class="section level2">
 <h2>11ª clase (04-dic)</h2>
 <p><br></p>
-<div id="homework-para-hacer-antes-de-ir-a-clase-2" class="section level5">
-<h5><strong><code>Homework</code></strong> (para hacer antes de ir a clase)</h5>
+<div id="homework-para-hacer-antes-de-ir-a-clase-2"
+class="section level5">
+<h5><strong><code>Homework</code></strong> (para hacer antes de ir a
+clase)</h5>
 <ul>
 <li><p>No hay homework!!! 🙌 👏 👏</p></li>
-<li><p>Bueno, en realidad tenéis que ir haciendo el trabajo en equipo, para presentarlo durante la última sesión del curso.</p></li>
-<li><p>Bueno, 😇, tampoco estaría mal que le pegaseis un vistazo/lectura rápida al tutorial 10</p></li>
+<li><p>Bueno, en realidad tenéis que ir haciendo el trabajo en equipo,
+para presentarlo durante la última sesión del curso.</p></li>
+<li><p>Bueno, 😇, tampoco estaría mal que le pegaseis un vistazo/lectura
+rápida al tutorial 10</p></li>
 </ul>
 <p><br></p>
 </div>
 <div id="qué-haremos-en-clase-2" class="section level5">
 <h5>¿Qué haremos en clase?</h5>
 <ul>
-<li><p>Lo que no hicimos en la anterior clase debido a las lluvias: mapas, mapas y más mapas; bueno en realidad vamos a usar R para hacer una introducción a GIS, Geographic Information Systems o, Sistemas de Información Geográfica (SIG). 🇦🇶 🗾</p></li>
-<li><p>Algunos ejemplos espero que chulos, pero nutritivos/formativos. 🥑 🥦</p></li>
-<li><p>Como veis, os echaré de menos 👨‍🎓, <strong>PERO</strong> estoy contento: el curso se va acabando!!! 🏝️ 😎 🎸</p></li>
+<li><p>Lo que no hicimos en la anterior clase debido a las lluvias:
+mapas, mapas y más mapas; bueno en realidad vamos a usar R para hacer
+una introducción a GIS, Geographic Information Systems o, Sistemas de
+Información Geográfica (SIG). 🇦🇶 🗾</p></li>
+<li><p>Algunos ejemplos espero que chulos, pero nutritivos/formativos.
+🥑 🥦</p></li>
+<li><p>Como veis, os echaré de menos 👨‍🎓, <strong>PERO</strong> estoy
+contento: el curso se va acabando!!! 🏝️ 😎 🎸</p></li>
 </ul>
 <p><br></p>
 <hr />
@@ -381,24 +411,34 @@ $(document).ready(function () {
 <div id="ª-clase-11-dic" class="section level2">
 <h2>12ª clase (11-dic)</h2>
 <p><br></p>
-<div id="homework-para-hacer-antes-de-ir-a-clase-3" class="section level5">
-<h5><strong><code>Homework</code></strong> (para hacer antes de ir a clase)</h5>
+<div id="homework-para-hacer-antes-de-ir-a-clase-3"
+class="section level5">
+<h5><strong><code>Homework</code></strong> (para hacer antes de ir a
+clase)</h5>
 <ul>
-<li><p>Tenéis que ir haciendo el trabajo en equipo. No!!!!, haciendo no, tenéis que ir <strong>acabando el trabajo en equipo</strong></p></li>
-<li><p>Además, tenéis que subir a Github vuestro trabajo en equipo. Da igual si aún no está del todo presentable, es solo una prueba para ver que todo funciona. Os he escrito un mail explicándoos cómo lo tenéis que hacer.</p></li>
+<li><p>Tenéis que ir haciendo el trabajo en equipo. No!!!!, haciendo no,
+tenéis que ir <strong>acabando el trabajo en equipo</strong></p></li>
+<li><p>Además, tenéis que subir a Github vuestro trabajo en equipo. Da
+igual si aún no está del todo presentable, es solo una prueba para ver
+que todo funciona. Os he escrito un mail explicándoos cómo lo tenéis que
+hacer.</p></li>
 </ul>
 <p><br></p>
 </div>
 <div id="qué-haremos-en-clase-3" class="section level5">
 <h5>¿Qué haremos en clase?</h5>
 <ul>
-<li><p>Explicar algo, un poco, de EDA y modelos (tutorial nº 10)</p></li>
+<li><p>Explicar algo, un poco, de EDA y modelos (tutorial nº
+10)</p></li>
 <li><p>Hablar un poco de loop’s en R.</p></li>
-<li><p>Generar informes .Rmd automáticos (informes parametrizados)</p></li>
+<li><p>Generar informes .Rmd automáticos (informes
+parametrizados)</p></li>
 <li><p>Algunos ejemplos usando datos de Twitter.</p></li>
-<li><p>Ver otros formatos .Rmd, entre ellos Flexdashboard y Shiny.</p></li>
+<li><p>Ver otros formatos .Rmd, entre ellos Flexdashboard y
+Shiny.</p></li>
 </ul>
-<p>Igual demasiado para la penúltima clase (supongo, pero ya veremos)</p>
+<p>Igual demasiado para la penúltima clase (supongo, pero ya
+veremos)</p>
 <p><br></p>
 <hr />
 <p><br></p>
@@ -407,11 +447,15 @@ $(document).ready(function () {
 <div id="ª-clase-18-dic" class="section level2">
 <h2>13ª clase (18-dic)</h2>
 <p><br></p>
-<div id="homework-para-hacer-antes-de-ir-a-clase-4" class="section level5">
-<h5><strong><code>Homework</code></strong> (para hacer antes de ir a clase)</h5>
+<div id="homework-para-hacer-antes-de-ir-a-clase-4"
+class="section level5">
+<h5><strong><code>Homework</code></strong> (para hacer antes de ir a
+clase)</h5>
 <ul>
-<li><p>Acabar y dejar chulos-chulos los trabajos en equipo. No os olvidéis de subir la última versión a Github</p></li>
-<li><p>Mandar a tu profesor la ultima versión del trabajo en equipo.</p></li>
+<li><p>Acabar y dejar chulos-chulos los trabajos en equipo. No os
+olvidéis de subir la última versión a Github</p></li>
+<li><p>Mandar a tu profesor la ultima versión del trabajo en
+equipo.</p></li>
 </ul>
 <p><br></p>
 </div>
@@ -419,11 +463,14 @@ $(document).ready(function () {
 <h5>¿Qué haremos en clase?</h5>
 <ul>
 <li><p>Yo, relajarme y escuchar.</p></li>
-<li><p>Vosotros, 👩‍🎓, sorprenderme con vuestras fantásticas presentaciones. Bueno, no pasa nada si alguna sale tan solo regular. El 🙌 👏 👏 lo vais a tener igual.</p></li>
+<li><p>Vosotros, 👩‍🎓, sorprenderme con vuestras fantásticas
+presentaciones. Bueno, no pasa nada si alguna sale tan solo regular. El
+🙌 👏 👏 lo vais a tener igual.</p></li>
 <li><p>Ánimo con los trabajos y presentación!!!</p></li>
 </ul>
 <p><br><br><br></p>
-<div class="tocify-extend-page" data-unique="tocify-extend-page" style="height: 0;">
+<div class="tocify-extend-page" data-unique="tocify-extend-page"
+style="height: 0;">
 
 </div>
 </div>

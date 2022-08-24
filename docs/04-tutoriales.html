@@ -13,10 +13,10 @@
 
 <title>04-tutoriales.knit</title>
 
-<script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<link href="site_libs/bootstrap-3.3.5/css/united.min.css" rel="stylesheet" />
+<link href="site_libs/bootstrap-3.3.5/css/yeti.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
@@ -57,6 +57,7 @@
 
 
 
+
 <link rel="stylesheet" href="assets/styles_pjp.css" type="text/css" />
 
 
@@ -81,6 +82,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -233,7 +237,7 @@ $(document).ready(function () {
 <div class="navbar navbar-inverse  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -310,27 +314,46 @@ $(document).ready(function () {
 
 <p><br></p>
 <div class="blue">
-<p><strong>Tutoriales</strong>: en esta sección iré subiendo los tutoriales conforme los vaya actualizando. Se supone que algún día juntaré todos los tutoriales en un <code>bookdown</code>, una especie de libro electrónico hecho con R; de momento, para la web del curso prefiero el formato actual. Todas los tutoriales están hechos con R; de hecho, una de las cosas que has de aprender durante el curso es a hacer ficheros parecidos a estos tutoriales, ya que los proyectos del curso tendrás que presentarlos en este formato. Verás que es sencillo.</p>
+<p><strong>Tutoriales</strong>: en esta sección iré subiendo los
+tutoriales conforme los vaya actualizando. Se supone que algún día
+juntaré todos los tutoriales en un <code>bookdown</code>, una especie de
+libro electrónico hecho con R; de momento, para la web del curso
+prefiero el formato actual. Todas los tutoriales están hechos con R; de
+hecho, una de las cosas que has de aprender durante el curso es a hacer
+ficheros parecidos a estos tutoriales, ya que los proyectos del curso
+tendrás que presentarlos en este formato. Verás que es sencillo.</p>
 </div>
 <p><br><br></p>
 <div id="tutoriales" class="section level1">
 <h1>Tutoriales</h1>
 <hr />
 <ul>
-<li><p><a href="./tutoriales/tt_00_prefacio.html" target="_blank">Prefacio</a></p></li>
-<li><p><a href="./tutoriales/tt_01_introduccion.html" target="_blank">Tutorial 01: Introducción</a></p></li>
-<li><p><a href="./tutoriales/tt_02_primeros-pasos-con-R.html" target="_blank">Tutorial 02: Workflow</a></p></li>
-<li><p><a href="./tutoriales/tt_03_R-base.html" target="_blank">Tutorial 03: R base</a></p></li>
-<li><p><a href="./tutoriales/tt_04_cargar_datos.html" target="_blank">Tutorial 04: Cargar datos</a></p></li>
-<li><p><a href="./tutoriales/tt_05_data-munging.html" target="_blank">Tutorial 05: Data munging</a></p></li>
-<li><p><a href="./tutoriales/tt_06_ggplot2.html" target="_blank">Tutorial 06: ggplot2</a></p></li>
-<li><p><a href="./tutoriales/tt_07_Rmarkdown.html" target="_blank">Tutorial 07: Rmarkdown</a></p></li>
-<li><p><a href="./tutoriales/tt_08_tablas-Rmarkdown.html" target="_blank">Tutorial 08: Tablas con Rmarkdown</a></p></li>
-<li><p><a href="./tutoriales/tt_09_GIS-con-R.html" target="_blank">Tutorial 09: Introducción a GIS con R</a></p></li>
-<li><p><a href="./tutoriales/tt_10_EDA-con-R.html" target="_blank">Tutorial 10: Un poco de EDA y modelos (WIP)</a></p></li>
+<li><p><a href="./tutoriales/tt_00_prefacio.html"
+target="_blank">Prefacio</a></p></li>
+<li><p><a href="./tutoriales/tt_01_introduccion.html"
+target="_blank">Tutorial 01: Introducción</a></p></li>
+<li><p><a href="./tutoriales/tt_02_primeros-pasos-con-R.html"
+target="_blank">Tutorial 02: Workflow</a></p></li>
+<li><p><a href="./tutoriales/tt_03_R-base.html" target="_blank">Tutorial
+03: R base</a></p></li>
+<li><p><a href="./tutoriales/tt_04_cargar_datos.html"
+target="_blank">Tutorial 04: Cargar datos</a></p></li>
+<li><p><a href="./tutoriales/tt_05_data-munging.html"
+target="_blank">Tutorial 05: Data munging</a></p></li>
+<li><p><a href="./tutoriales/tt_06_ggplot2.html"
+target="_blank">Tutorial 06: ggplot2</a></p></li>
+<li><p><a href="./tutoriales/tt_07_Rmarkdown.html"
+target="_blank">Tutorial 07: Rmarkdown</a></p></li>
+<li><p><a href="./tutoriales/tt_08_tablas-Rmarkdown.html"
+target="_blank">Tutorial 08: Tablas con Rmarkdown</a></p></li>
+<li><p><a href="./tutoriales/tt_09_GIS-con-R.html"
+target="_blank">Tutorial 09: Introducción a GIS con R</a></p></li>
+<li><p><a href="./tutoriales/tt_10_EDA-con-R.html"
+target="_blank">Tutorial 10: Un poco de EDA y modelos (WIP)</a></p></li>
 </ul>
 <p><br><br></p>
-<div class="tocify-extend-page" data-unique="tocify-extend-page" style="height: 0;">
+<div class="tocify-extend-page" data-unique="tocify-extend-page"
+style="height: 0;">
 
 </div>
 </div>
