@@ -146,6 +146,9 @@ PD3: Si usas Linux, el proceso de instalación dependerá de la distribución co
 
 PD4: [Aquí](https://www.jimhester.com/post/2020-08-20-best-os-for-r/) tienes un post con ventajas y dsventajas de los 3 principales sistemas operativos cuando usas R. No hace falta que lo leas.
 
+<br>
+PD5*: [Aquí](https://developer.r-project.org/Blog/public/2021/12/07/upcoming-changes-in-r-4.2-on-windows/) anuncian cambios para R 4.2 en Windows
+
 <br><br><br>
 
 <div class="tocify-extend-page" data-unique="tocify-extend-page" style="height: 0;"></div>

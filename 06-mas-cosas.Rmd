@@ -39,16 +39,9 @@ En cada sesión/clase vamos a usar un Rproject con ejemplos y alguna cosa más: 
 Para descargaros el Rproject con el guión de cada sesión tienes que ejecutar en RStudio las siguientes instrucciones:
 
 ```{r, eval = FALSE}
-<<<<<<< HEAD
 file_to_download <- "clase_01.zip" 
 url <- paste0("https://github.com/perezp44/intro-ds-21-22-web/raw/master/guiones-de-clase/", file_to_download)
-#download.file(url, destfile = file_to_download)
 curl::curl_download(url, destfile = file_to_download, quiet = FALSE)
-=======
-file_to_download <- "curso_R_2022.zip" 
-url <- paste0("https://github.com/perezp44/intro-ds-21-22-web/raw/master/guiones-de-clase/", file_to_download)
-download.file(url, destfile = file_to_download)
->>>>>>> 4bd73e977a9d0f7e8e90f92871c9e0d623efe96f
 unzip(zipfile = file_to_download)
 file.remove(file_to_download)
 ```
@@ -80,11 +73,7 @@ Durante el curso, sobre todo las primeras semanas, os mandaré tareas, algunas p
 
 - [Guía de Instalación de R y RStudio](./mas-recursos/01_instrucciones-instalacion.html){target="_blank"}
 
-<<<<<<< HEAD
 - [Listado de paquetes a instalar](./mas-recursos/02_paquetes-a-instalar.R)
-=======
-- [Listado de paquetes a instalar](./mas-recursos/pkgs_a_instalar_sfpie_2022.R)
->>>>>>> 4bd73e977a9d0f7e8e90f92871c9e0d623efe96f
 
 - [Descargar ficheros de Google Drive](./mas-recursos/05_bajar-google-drive.html){target="_blank"}. Este fichero es solo para mi. Para usarlo en el aula.
 
